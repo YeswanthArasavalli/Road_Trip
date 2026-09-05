@@ -30,3 +30,26 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
 
 - The first generation of the implementation plan was corrupted and was fully rewritten clean; the version on disk is the clean rewrite.
 - Scoring model and nearby-opportunity engine remain P2 (deferred), unchanged from v1.
+
+## Slice 2 verified baseline (2026-09-05)
+
+- HEAD at baseline: `e24903f` — tests 33/33 PASS, build PASS (PWA emitted).
+- Temporal: fixed IST offset (330 min), midnight crossing + clock-skew property-tested; no `Date.now()` in core.
+- Estimates: `Estimate<T>` with status/confidence/source/retrieved_at + 3-point ranges; accumulation identity-tested.
+- Deadline: all six functions implemented; `classifyRisk(buffer, thresholds)` is structurally conservative-only — a single numeric risk input, no optimistic value can reach it (arity-tested).
+- UNKNOWN-not-precise: documented at type level; hard enforcement lands in the Slice 3 Zod seed schema (plan §147).
+- Accepted architectural decisions: `now` parameter unused inside `deadlineBuffer` (interface stability, provenance); web `tsc` excludes `*.test.ts(x)` (browser build must not depend on Node-only test modules; Vitest still runs them); Slices 1+2 share commit `e68a329` — kept, not rewritten.
+- Known defects: NONE.
+- Slice 3 began with no Slice 3+ code present.
+
+## Slice 3 verified baseline (2026-09-05)
+
+- Seed package: `schema.ts` (Zod), `trip-2026-09.ts`, `schema.test.ts` (23 tests), `data-pass-2026-09-05.md` (source-of-record); `index.ts` re-exports schema + trip + version.
+- Seed validates at module load (`TripSeedSchema.parse`) — invalid seed fails fast, never silently.
+- Route model per roadmap §2.4: 11 nodes / 10 chained legs, Tirupati → Narsapuram HOME; the Narsapuram → Tirupati outbound drive is trip-origin context documented in the data pass, not a route leg.
+- 9 MANDATORY_DESTINATION nodes; Vijayawada RETURN_WAYPOINT (mandatory=false, degrades to drive-through); Narsapuram single terminal HOME node.
+- Data honesty (§6.1): all visit/darshan queues UNKNOWN — conservative assumption documented, no precise value (schema-refined + tested); drive legs ESTIMATED with 3-point ranges and confidence (conservative ≈ expected +15%, §6.2); no invented VERIFIED sources; no Maps/Apify/AI consulted.
+- Deadline `2026-09-13T03:00:00+05:30`, timezone `Asia/Kolkata` (regex-enforced offset); normal return target 2026-09-12; routine order BATH → WASHROOM → GET_READY → FOOD.
+- Test invocation note: vitest must run from workspace root (`pnpm test -- packages/seed-data`); package-dir runs find no files (root config uses root-relative globs).
+- Workspace tests at close: 56/56 PASS (8 files), seed-data targeted 23+1 green.
+- Known defects: NONE. Slice 4 (TripEvent schemas) not started.
