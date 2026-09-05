@@ -1,0 +1,32 @@
+# TRIP OS — Phase 0.1 Changelog
+
+Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied. No implementation performed.
+
+## Amendments
+
+- **#1 — 11 route nodes with role semantics.** Previous: "10 destinations"; Narsapuram as an ordinary destination. New: `node_type: DESTINATION | HOME` plus `role: MANDATORY_DESTINATION | OPTIONAL_DESTINATION | RETURN_WAYPOINT | HOME`. Reason: HOME is never sightseeing; Vijayawada can degrade (drive-through / short visit / skip) without "failing" a pilgrimage stop. Where: roadmap §2.4, seed schema, Slice 3.
+- **#2 — Event log is the authoritative local history.** Previous: "Dexie as truth" wording. New: `trip_events` is append-only and authoritative; projections, ETA, risk, and checklist state are derived and rebuildable via `rebuildProjection(events)`. Reason: rebuildability must be binding. Where: roadmap §4.2, plan global constraints, Slice 4 rebuild property tests.
+- **#3 — Confidence and provenance on all material estimates.** Previous: single-point estimates. New: `Estimate<T>` with `status: VERIFIED | ESTIMATED | UNKNOWN`, 4-level confidence, source, retrieved_at. Reason: an UNKNOWN field must never silently become a precise number. Where: roadmap §6.1, Slice 2 `estimates.ts`, scenario P.
+- **#4 — Home ETA is a range; conservative governs safety.** Previous: single home ETA. New: `{optimistic, expected, conservative}`; risk classification uses only the conservative buffer. Reason: optimistic ETA must never make an unsafe plan look safe. Where: roadmap §6.3, Slice 2/5 tests, scenario O.
+- **#5 — Live traffic can never create false safety.** Previous: live route data could implicitly become truth. New: live data updates expected/optimistic; the conservative bound never drops below expected + configurable margin. Reason: a live API is not a guaranteed arrival. Where: roadmap §6.4, scenario O structural test.
+- **#6 — Driver fatigue reclassified P1 → P0.** Previous: P1. New: P0 safety requirement; the engine must recommend REST NOW over any attraction; parameters configurable (max_continuous_drive_minutes default 180, etc.); all outputs labeled advisory, explicitly not medical. Where: roadmap §9, Slice 6, scenario L must-pass.
+- **#7 — First-class "WE ARE DELAYED" action.** Previous: delays via implicit timestamp edits. New: prominent Home button → +15m/+30m/+1h/+2h/Custom → `DELAY_ADDED {amount_minutes, source: USER}` auditable event, then deterministic recalculation. Where: roadmap §15, Slice 5 UI, scenario Q.
+- **#8 — Three-clock time model with event provenance.** Previous: implicit device clock. New: DEVICE NOW / TRIP NOW / VERIFIED NETWORK TIME; every event carries `{actual_event_time, recorded_at, source: USER | GPS | NETWORK | SYSTEM}`; user-stated times are never silently overwritten; skew above a threshold shows a warning, historical events are never auto-rewritten. Where: roadmap §14, Slice 4 provenance tests, scenario N.
+- **#9 — Fatigue model made configurable.** Previous: fixed warnings. New: configurable parameters (`max_continuous_drive_minutes`, `recommended_break_minutes`, `max_drive_minutes_in_24h`, `night_drive_warning_threshold`), documented as application policy, not legal or medical standards. Where: roadmap §9, Slice 6 boundary tests (180/181).
+- **#10 — Estimation honesty mechanisms throughout.** Previous: point estimates everywhere. New: ranges + confidence labels + conservative-governs rule; scenario suite extended A–N → A–R (O: no false-safe from live/optimistic data; P: unknown ≠ precise; Q: delay audited; R: rebuild after corruption). Where: roadmap §6–7, §30, requirement matrix R4/R12/R13.
+- **#11 — Vertical slices with release gates G1–G4.** Previous: v1 phase table without explicit gates. New: 8 slices, each ending runnable; gates G1 (property tests) → G2 (scenarios A–F, K, N, O, P, Q) → G3 (scenario L; trip-ready core) → G4 (real-device offline gate; release-ready). Reason: 2-day runway demands runnable-at-every-boundary. Where: implementation plan, roadmap §29.
+- **#12 — MVP-A scope lock (MUST / SHOULD / DEFERRED).** Previous: undifferentiated MVP-A table. New: three-tier scope lock (roadmap §33); plan covers MUST items only; AI-Lite optional (Slice 8); Maps, Apify, AI-Full, sync, auth, Postgres explicitly deferred. Reason: anti-scope-creep.
+
+## Other changes
+
+- Real-device offline test strengthened from a checklist item to a **P0 release gate** (roadmap §24, plan Slice 7).
+- Vijayawada modeled as RETURN_WAYPOINT with explicit degrade semantics under schedule pressure (roadmap §2.4, §11).
+- Requirement matrix reclassified: R7/R9 (offline verification, fatigue) moved to P0; R13 (AI-Lite) P1 optional; Maps/Apify/sync P2; weather/localization P3 (roadmap §31).
+- Trip-works-with-everything-off guarantee made a binding P0 acceptance checklist (roadmap §21).
+- Safety-language rules made binding: advisory wording enforced by a banned-words string test in Slice 6 (roadmap §25).
+- Future sync reduced to a documented design boundary — nothing built in MVP-A (roadmap §23).
+
+## Notes
+
+- The first generation of the implementation plan was corrupted and was fully rewritten clean; the version on disk is the clean rewrite.
+- Scoring model and nearby-opportunity engine remain P2 (deferred), unchanged from v1.

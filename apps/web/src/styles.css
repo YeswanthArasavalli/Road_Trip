@@ -1,0 +1,76 @@
+/* TRIP OS — mobile-first, elderly-friendly base styles (roadmap §26).
+   Large touch targets, high contrast, dark-mode-first for night driving. */
+
+:root {
+  --bg: #0b1220;
+  --surface: #141d30;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #22c55e;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --radius: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.shell {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+}
+
+.shell-header h1 {
+  font-size: 1.6rem;
+  margin: 0 0 0.25rem;
+}
+
+.shell-sub {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.9rem 1.2rem;
+  border-radius: var(--radius);
+  border: 1px solid #2a3650;
+  background: #1c2942;
+  color: var(--text);
+  min-height: 56px; /* large touch target */
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+button:active {
+  filter: brightness(1.2);
+}
