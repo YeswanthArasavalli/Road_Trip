@@ -173,8 +173,10 @@ function planFrom(
 
 /**
  * Compute the live roadmap. `now` is injected (epoch ms) — the engine
- * never reads a clock. The plan starts at `now` from the current route
- * position; visits already COMPLETED contribute nothing further.
+ * never reads a clock. The plan starts at max(now, delay_horizon) from
+ * the current route position: a recorded delay pushes the plan start
+ * conservatively later until the wall clock absorbs it. Visits already
+ * COMPLETED contribute nothing further.
  */
 export function computeRoadmap(
   projection: TripProjection,
@@ -182,15 +184,16 @@ export function computeRoadmap(
   config: RoadmapConfig,
   now: number
 ): RoadmapResult {
+  const startEpoch = Math.max(now, projection.delay_horizon ?? 0);
   const startIdx = currentRouteIndex(projection, seed);
-  const full = planFrom(seed, projection, config, now, startIdx, false);
+  const full = planFrom(seed, projection, config, startEpoch, startIdx, false);
 
   const homeStop = full.stop_plan[full.stop_plan.length - 1];
   const homeEta: EtaRange = homeStop
     ? homeStop.arrival_range
-    : { optimistic: now, expected: now, conservative: now };
+    : { optimistic: startEpoch, expected: startEpoch, conservative: startEpoch };
 
-  const buffer = deadlineBuffer(now, homeEta.conservative, config.deadline);
+  const buffer = deadlineBuffer(startEpoch, homeEta.conservative, config.deadline);
   const risk = classifyRisk(buffer, config.thresholds);
 
   // Waypoint degrade: recommend Vijayawada drive-through when the full
@@ -198,8 +201,12 @@ export function computeRoadmap(
   // risk class. Deterministic comparison, conservative bounds only.
   let degradeRecommended = false;
   if (risk === "CRITICAL" || risk === "IMPOSSIBLE") {
-    const degraded = planFrom(seed, projection, config, now, startIdx, true);
-    const degradedBuffer = deadlineBuffer(now, addMinutes(now, degraded.conservative_minutes), config.deadline);
+    const degraded = planFrom(seed, projection, config, startEpoch, startIdx, true);
+    const degradedBuffer = deadlineBuffer(
+      startEpoch,
+      addMinutes(startEpoch, degraded.conservative_minutes),
+      config.deadline
+    );
     const degradedRisk = classifyRisk(degradedBuffer, config.thresholds);
     degradeRecommended = degradedRisk !== risk && degradedBuffer >= 0;
   }

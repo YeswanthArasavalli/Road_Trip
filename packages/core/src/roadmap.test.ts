@@ -124,6 +124,36 @@ describe("computeRoadmap on the real seed", () => {
   });
 });
 
+describe("delay horizon (recorded delays shift the plan until absorbed)", () => {
+  it("a 30-min DELAY_ADDED at NOW shifts the conservative home ETA by exactly +30 min", () => {
+    seq = 0;
+    const base = computeRoadmap(proj(), trip2026_09, config, NOW);
+    const delayed = computeRoadmap(
+      proj([
+        ev({ type: "DELAY_ADDED", amount_minutes: 30, reason: "traffic", actual_event_time: "2026-09-06T21:00:00+05:30" }),
+      ]),
+      trip2026_09,
+      config,
+      NOW
+    );
+    expect(delayed.home_eta_range.conservative).toBe(base.home_eta_range.conservative + 30 * 60_000);
+    expect(delayed.buffer_minutes).toBe(base.buffer_minutes - 30);
+  });
+
+  it("the delay backlog is absorbed once the wall clock passes the horizon (no double count)", () => {
+    seq = 0;
+    const delayedProj = proj([
+      ev({ type: "DELAY_ADDED", amount_minutes: 30, reason: "traffic", actual_event_time: "2026-09-06T21:00:00+05:30" }),
+    ]);
+    // 30-min delay at 21:00 → horizon 21:30; at 23:00 the wall clock has
+    // fully absorbed it, so the plan equals a delay-free plan at 23:00.
+    const atAbsorbed = computeRoadmap(delayedProj, trip2026_09, config, NOW + 120 * 60_000);
+    const fresh = computeRoadmap(proj(), trip2026_09, config, NOW + 120 * 60_000);
+    expect(atAbsorbed.home_eta_range.conservative).toBe(fresh.home_eta_range.conservative);
+    expect(atAbsorbed.buffer_minutes).toBe(fresh.buffer_minutes);
+  });
+});
+
 describe("scenario O — no optimistic input can flip risk (structural)", () => {
   it("classifyRisk arity: a single conservative number decides the class", () => {
     // The risk function takes exactly one number; there is no optimistic

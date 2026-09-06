@@ -98,6 +98,8 @@ describe("per-event application", () => {
     ];
     const p = rebuildProjection(events);
     expect(p.delay_total_min).toBe(90);
+    // Horizon: earliest plan start is the event time + the delay.
+    expect(p.delay_horizon).toBe(Date.parse(T1) + 90 * 60_000);
     // The auditable event itself retains provenance fields.
     const parsed = TripEventSchema.parse(events[0]);
     expect(parsed.source).toBe("USER");
@@ -226,6 +228,7 @@ describe("rebuild property tests (fast-check)", () => {
         const b = rebuildProjection(sorted);
         deepEq(b.current_node, a.current_node);
         deepEq(b.delay_total_min, a.delay_total_min);
+        deepEq(b.delay_horizon, a.delay_horizon);
         deepEq(b.fatigue_counters, a.fatigue_counters);
         deepEq(
           Object.entries(b.nodes).map(([k, v]) => [k, v.status]),

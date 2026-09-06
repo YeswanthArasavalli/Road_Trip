@@ -36,6 +36,8 @@ export interface TripProjection {
   current_activity: string | null;
   trip_started: boolean;
   delay_total_min: number;
+  /** Epoch ms after which recorded delays are fully absorbed; 0 = none. */
+  delay_horizon: number;
   completed_activities: string[];
   drive_segments: DriveSegment[];
   /** Epoch ms of the last completed rest (resets continuous driving). */
@@ -65,6 +67,7 @@ export function initialProjection(nodeIds: string[] = []): TripProjection {
     current_activity: null,
     trip_started: false,
     delay_total_min: 0,
+    delay_horizon: 0,
     completed_activities: [],
     drive_segments: [],
     last_rest_at: null,
@@ -199,6 +202,11 @@ export function applyEvent(prev: TripProjection, event: TripEvent): TripProjecti
     }
     case "DELAY_ADDED":
       p.delay_total_min += event.amount_minutes;
+      // Planning horizon: the delay pushes the earliest plan start to
+      // max(previous horizon, event time) + delay; wall clock absorbs it
+      // once `now` passes the horizon.
+      p.delay_horizon =
+        Math.max(p.delay_horizon, at) + event.amount_minutes * MS_PER_MINUTE;
       break;
     case "TIME_UPDATED": {
       const network = epoch(event.network_now);
