@@ -1,7 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "pnpm --filter web exec tsc && pnpm --filter web exec vite build",
-  "outputDirectory": "apps/web/dist",
-  "cleanUrls": true,
-  "rewrites": [{ "source": "/((?!sw\\.js|workbox-.*\\.js|manifest\\.webmanifest).*)", "destination": "/index.html" }]
+  "outputDirectory": "apps/web/dist"
 }

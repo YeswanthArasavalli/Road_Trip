@@ -114,12 +114,22 @@ same Wi-Fi; that's why the hosted deploy below is the primary path.
 
 ## Deploying (primary path: Vercel)
 
-The repo is zero-config deployable — `vercel.json` at the root already sets the
-build command and output directory, and `packageManager` pins pnpm:
+The repo is deployable two ways, and `apps/web/vercel.json` + the root
+`vercel.json` cover both (build command and output directory are set for each
+case, and `packageManager` pins pnpm):
 
 1. On [vercel.com](https://vercel.com), sign up with GitHub.
 2. **Add New → Project → Import** the `Road_Trip` repository.
-3. Change nothing; press **Deploy**.
+3. Set **Root Directory to `apps/web`** (Vercel often pre-fills this when it
+   detects the monorepo — keep it). Leave Build Command, Output Directory,
+   Install Command, and Framework at their detected values
+   (`pnpm run build`, `dist`, `pnpm install`, Vite).
+4. Press **Deploy**.
+
+If instead you leave Root Directory **empty**, the root `vercel.json` takes
+over and builds `apps/web/dist` from the repo root — that works too. The one
+broken combination is a Root Directory set **without** `apps/web/vercel.json`,
+which is what the first deploy attempt hit.
 
 You get an HTTPS URL (e.g. `https://road-trip.vercel.app`). Open it **once** on the
 trip phone while online, install via **Add to Home screen**, and after that the app
