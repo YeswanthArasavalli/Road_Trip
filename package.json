@@ -7,7 +7,8 @@
     "test:watch": "vitest",
     "dev": "pnpm --filter web dev",
     "build": "pnpm -r build",
-    "preview": "pnpm --filter web preview"
+    "preview": "pnpm --filter web preview",
+    "phone": "pnpm --filter web preview --host --port 4173 --strictPort"
   },
   "devDependencies": {
     "@testing-library/react": "^16.0.0",

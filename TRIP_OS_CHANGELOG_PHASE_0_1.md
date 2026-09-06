@@ -135,3 +135,21 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
   engineering report. Slice 8 (AI-Lite) intentionally not started.
 - Known defects: NONE open in code. See report for deployment + device
   steps that remain user-side.
+
+## Phone-deploy pass (2026-09-06, pre-departure)
+
+- LAN HTTPS: `@vitejs/plugin-basic-ssl` added to web devDependencies and
+  enabled in `vite.config.ts` **preview mode only** (`isPreview` guard;
+  dev/localhost stays plain HTTP). Reason: a PWA service worker cannot
+  register on a plain-HTTP LAN origin (not a secure context), which would
+  silently block the phone install. Self-signed → phone shows a warning
+  page once; proceeding is expected and safe on a home network.
+- New root script `pnpm phone` = `vite preview --host --port 4173
+  --strictPort` on the freshly built `dist/`. Verified this machine:
+  HTTPS 200 on `/`, `/manifest.webmanifest`, `/sw.js`; listening on
+  `0.0.0.0:4173`; Windows Firewall Node.js inbound allow-rule exists
+  (Private profile); active Wi-Fi profile is Private. LAN IP at verification:
+  `192.168.29.22`.
+- Re-verified after the change: tests 96/96 PASS (11 files), `pnpm build`
+  PASS (PWA emitted, 7 precache entries).
+

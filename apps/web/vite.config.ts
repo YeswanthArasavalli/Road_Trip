@@ -1,10 +1,15 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import basicSsl from "@vitejs/plugin-basic-ssl";
 import { VitePWA } from "vite-plugin-pwa";
 
-export default defineConfig({
+export default defineConfig(({ isPreview }) => ({
   plugins: [
     react(),
+    // Phones on the LAN can only install the PWA from an HTTPS origin
+    // (plain-HTTP LAN addresses cannot register a service worker), so the
+    // preview server uses self-signed HTTPS. Dev on localhost stays plain.
+    ...(isPreview ? [basicSsl()] : []),
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg"],
@@ -33,4 +38,4 @@ export default defineConfig({
       },
     }),
   ],
-});
+}));
