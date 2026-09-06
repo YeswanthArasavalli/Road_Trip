@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]
+    - generic [ref=e9]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=e16]: Tiruvannamalai to Trichy distance km driving time
+        - generic [ref=e17] [cursor=pointer]
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]
+      - link "Sign in" [ref=e26] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=e28]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "All" [ref=e31] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e32]:
+          - link "Search" [ref=e33] [cursor=pointer]:
+            - /url: /copilotsearch?q=Tiruvannamalai+to+Trichy+distance+km+driving+time&FORM=CSSCOP
+        - listitem [ref=e36]:
+          - link "Images" [ref=e37] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=2d888673998c5d2a577a24787d3ccb4be124a4d9896eb7ed68f24f26e869c823JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2ltYWdlcy9zZWFyY2g_cT1UaXJ1dmFubmFtYWxhaSt0bytUcmljaHkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e38]:
+          - link "Videos" [ref=e39] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=2a92e25e2b8883dc621f00f814424c7230f5787278df7d1aab3d6c2393f127e7JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UaXJ1dmFubmFtYWxhaSt0bytUcmljaHkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e40]:
+          - link "Maps" [ref=e41] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6f75bd15ea48f3ed81121cecf3aeb2f25e50ce6f4354a1c13e29780f7145c2feJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_cT1UaXJ1dmFubmFtYWxhaSt0bytUcmljaHkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e42]:
+          - link "News" [ref=e43] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=15c70279bd6ab005b05f1c8508bdd8d336502d9e63a6c0908c2f42d0835285a6JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L25ld3Mvc2VhcmNoP3E9VGlydXZhbm5hbWFsYWkrdG8rVHJpY2h5K2Rpc3RhbmNlK2ttK2RyaXZpbmcrdGltZSZGT1JNPUhEUlNDNw&ntb=1
+        - listitem [ref=e44]:
+          - link "Copilot" [ref=e45] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ad6eb5c2343598c32d2727d0d02dfba4954527e53742d59acde27ba6b840516eJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2NoYXQ_cHJvbXB0PVRpcnV2YW5uYW1hbGFpK3RvK1RyaWNoeStkaXN0YW5jZStrbStkcml2aW5nK3RpbWUmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+  - main "Search Results" [ref=e47]:
+    - generic [ref=e48]:
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - heading [level=2] [ref=e54]:
+                - link "Copilot Search Branding" [ref=e55] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=558b693a099ad0f65f2681f2a00e99ed123a325439ae75ccc6cae27548a03af1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2NvcGlsb3RzZWFyY2g_cT1UaXJ1dmFubmFtYWxhaSt0bytUcmljaHkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lJmZvcm09Q1NCUkFORA&ntb=1
+              - button "More info about AI summary" [ref=e61]
+            - region "Copilot Search" [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e70]:
+                  - generic [ref=e74]:
+                    - heading [level=2] [ref=e75]:
+                      - strong [ref=e76]: The road distance from Tiruvannamalai to Trichy is approximately 184 km.
+                    - paragraph [ref=e77]:
+                      - text: The distance between Tiruvannamalai and Trichy (Tiruchirappalli) varies slightly depending on the route taken. Most sources report the
+                      - strong [ref=e78]: road distance as between 176.7 km and 192 km
+                      - text: ", with a commonly cited figure of"
+                      - strong [ref=e79]: 184 km
+                      - text: by road, which typically takes around 2 hours 43 minutes to drive under normal traffic conditions
+                      - 'link "Sources: fromto.travel +1" [ref=e80] [cursor=pointer]':
+                        - /url: https://www.bing.com/ck/a?!&&p=c6a16f5eaf17ca5fbc10a057e57f447fa8358e4899813ee21facdc10cfff48aeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RhLXRpcnV2YW5uYW1hbGFpL3RyaWNoeQ&ntb=1
+                        - generic [ref=e83]: fromto.travel
+                        - generic [ref=e84]: "+1"
+                      - text: . The
+                      - strong [ref=e85]: straight-line distance
+                      - text: (as the crow flies) is shorter, approximately
+                      - strong [ref=e86]: 164 km
+                      - text: ", but actual travel distances are longer due to road curvature and route selection"
+                      - 'link "Sources: distancebetween2.com" [ref=e87] [cursor=pointer]':
+                        - /url: https://www.bing.com/ck/a?!&&p=e78edc2a7a356f495d3edfb76294702b9d4aed301b8d899bebc6d16b8a131813JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9kaXN0YW5jZWJldHdlZW4yLmNvbS90aXJ1dmFubmFtYWxhaS90cmljaHk&ntb=1
+                        - generic [ref=e90]: distancebetween2.com
+                      - text: .
+                    - heading "Travel Options" [level=3] [ref=e91]
+                    - list [ref=e92]:
+                      - listitem [ref=e93]:
+                        - strong [ref=e94]: "By Bus:"
+                        - text: Buses from Tiruvannamalai to Trichy take roughly 3 to 4 hours depending on the service and route, with fares ranging from ₹140 to ₹750
+                        - 'link "Sources: Rome2rio" [ref=e95] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=622b98ca13e7b7ac6b8fbc1ce7880d6e3de40aeca2ee217cce1fc2b27c5c6050JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvVGlydXZhbm4lQzQlODFtYWxhaS9UaXJ1Y2hpcmFwcGFsbGk&ntb=1
+                          - generic [ref=e98]: Rome2rio
+                        - text: .
+                      - listitem [ref=e99]:
+                        - strong [ref=e100]: "By Train:"
+                        - text: Train travel covers a longer distance of about
+                        - strong [ref=e101]: 245 km
+                        - text: ", taking between 5 hours 12 minutes to 7 hours 45 minutes depending on the train service, such as the Purulia - Tirunelveli SF Express"
+                        - 'link "Sources: www.railyatri.in" [ref=e102] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=67933258bf73bd5f554f9b0ca282e9a8fe316e262beb50f5e473b968d2c0849bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucmFpbHlhdHJpLmluL3RpcnV2YW5uYW1hbGFpLXRvLXRpcnVjaGlyYXBwYWxsaS10cmFpbnM&ntb=1
+                          - generic [ref=e105]: www.railyatri.in
+                        - text: .
+                    - heading "Summary" [level=3] [ref=e106]
+                    - list [ref=e107]:
+                      - listitem [ref=e108]:
+                        - strong [ref=e109]: "Road distance:"
+                        - text: ~184 km (176.7–192 km depending on route)
+                      - listitem [ref=e110]:
+                        - strong [ref=e111]: "Straight-line distance:"
+                        - text: ~164 km
+                      - listitem [ref=e112]:
+                        - strong [ref=e113]: "Driving time:"
+                        - text: ~2 hours 43 minutes
+                      - listitem [ref=e114]:
+                        - strong [ref=e115]: "Bus travel time:"
+                        - text: ~3–4 hours
+                      - listitem [ref=e116]:
+                        - strong [ref=e117]: "Train travel distance/time:"
+                        - text: ~245 km / 5–7.5 hours This information helps in planning travel by car, bus, or train between Tiruvannamalai and Trichy, considering both distance and estimated travel time.
+                  - button "Read all" [disabled] [ref=e123]
+                - generic [ref=e127]:
+                  - list "References" [ref=e128]:
+                    - listitem [ref=e129]:
+                      - 'link "fromto.travel Tiruvannamalai to Trichy: Distance, Travel Time, Fares & Route" [ref=e130] [cursor=pointer]':
+                        - /url: https://www.bing.com/ck/a?!&&p=c6a16f5eaf17ca5fbc10a057e57f447fa8358e4899813ee21facdc10cfff48aeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RhLXRpcnV2YW5uYW1hbGFpL3RyaWNoeQ&ntb=1
+                        - generic [ref=e131]:
+                          - generic [ref=e132]: fromto.travel
+                          - generic [ref=e135]: "Tiruvannamalai to Trichy: Distance, Travel Time, Fares & Route"
+                    - listitem [ref=e137]:
+                      - link "Rome2rio Tiruvannāmalai to Tiruchirappalli - 5 ways to travel via train, bus ..." [ref=e138] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=622b98ca13e7b7ac6b8fbc1ce7880d6e3de40aeca2ee217cce1fc2b27c5c6050JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvVGlydXZhbm4lQzQlODFtYWxhaS9UaXJ1Y2hpcmFwcGFsbGk&ntb=1
+                        - generic [ref=e139]:
+                          - generic [ref=e140]: Rome2rio
+                          - generic [ref=e143]: Tiruvannāmalai to Tiruchirappalli - 5 ways to travel via train, bus ...
+                  - button "Show All" [ref=e145] [cursor=pointer]
+      - list [ref=e154]:
+        - listitem [ref=e155]:
+          - generic [ref=e160]:
+            - generic [ref=e162]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [aria-hidden] [ref=e166]: A
+                  - textbox "Enter your start location here – Search suggestions will show as you type" [ref=e168]:
+                    - /placeholder: Enter starting point
+                    - text: Tiruvannamalai
+                - link "Reverse Directions" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=450b06979afb9a8c00add9f504d8b0da66167ec23d9809daf1fe97cd6b2fd03aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_Jm1lcGk9NjJ-RGlyZWN0aW9uc35FbWJlZGRlZH4mdHk9MCZydHA9cG9zLjEwLjgwMDgyMzIxMTY2OTkyMl83OC42ODk5MTg1MTgwNjY0X19UaXJ1Y2hpcmFwcGFsbGklMkMlMjBUTl9fc19-cG9zLjEyLjI3OTk5OTczMjk3MTE5MV83OS4wNjk5OTk2OTQ4MjQyMl9fVGlydXZhbm5hbWFsYWlfX2VfJm1vZGU9bSZ2PTImc1Y9MSZGT1JNPVNOQVBTVA&ntb=1
+                - generic [ref=e174]:
+                  - generic [aria-hidden] [ref=e175]: B
+                  - textbox "Enter your end location here – Search suggestions will show as you type" [ref=e177]:
+                    - /placeholder: Enter destination
+                    - text: Tiruchirappalli, TN
+              - generic [ref=e178]:
+                - link "Driving" [ref=e181] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=33a1f8472090fa23bda1f8772e5b3de6f98f0d2cf7efc5ad0e75fe82a7bce0d0JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_Jm1lcGk9NjJ-RGlyZWN0aW9uc35FbWJlZGRlZH5EaXJlY3Rpb25fTW9kZV9TZWxlY3Rvcl9DYXImdHk9MCZydHA9cG9zLjEyLjI3OTk5OTczMjk3MTE5MV83OS4wNjk5OTk2OTQ4MjQyMl9fVGlydXZhbm5hbWFsYWlfX3NffnBvcy4xMC44MDA4MjMyMTE2Njk5MjJfNzguNjg5OTE4NTE4MDY2NF9fVGlydWNoaXJhcHBhbGxpJTJDJTIwVE5fX2VfJm1vZGU9bSZ2PTImc1Y9MSZGT1JNPVNOQVBTVA&ntb=1
+                - link "Transit" [ref=e185] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7b02723a312d1f12d88c6430f1de351edd0e804b61b88e1ae2629238a2cebc5fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_Jm1lcGk9NjJ-RGlyZWN0aW9uc35FbWJlZGRlZH5EaXJlY3Rpb25fTW9kZV9TZWxlY3Rvcl9UcmFuc2l0JnR5PTAmcnRwPXBvcy4xMi4yNzk5OTk3MzI5NzExOTFfNzkuMDY5OTk5Njk0ODI0MjJfX1RpcnV2YW5uYW1hbGFpX19zX35wb3MuMTAuODAwODIzMjExNjY5OTIyXzc4LjY4OTkxODUxODA2NjRfX1RpcnVjaGlyYXBwYWxsaSUyQyUyMFROX19lXyZtb2RlPXQmdj0yJnNWPTEmRk9STT1TTkFQU1Q&ntb=1
+            - link "Larger map" [ref=e192] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f36feb6c541b19bc422f73a21b745effc3b39429090f3d7003e5a7ff62fcc2acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_Jm1lcGk9NjJ-RGlyZWN0aW9uc35FbWJlZGRlZH5MYXJnZU1hcExpbmsmdHk9MCZydHA9cG9zLjEyLjI3OTk5OTczMjk3MTE5MV83OS4wNjk5OTk2OTQ4MjQyMl9fVGlydXZhbm5hbWFsYWlfX3NffnBvcy4xMC44MDA4MjMyMTE2Njk5MjJfNzguNjg5OTE4NTE4MDY2NF9fVGlydWNoaXJhcHBhbGxpJTJDJTIwVE5fX2VfJm1vZGU9ZCZ2PTImc1Y9MSZGT1JNPU1QU1JQTA&ntb=1
+            - generic [ref=e196]:
+              - link "2 hr 57 min 195 km Via Thirukovilur Road, NH38 Light traffic · Toll on route" [ref=e197] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=33a1f8472090fa23bda1f8772e5b3de6f98f0d2cf7efc5ad0e75fe82a7bce0d0JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_Jm1lcGk9NjJ-RGlyZWN0aW9uc35FbWJlZGRlZH5EaXJlY3Rpb25fTW9kZV9TZWxlY3Rvcl9DYXImdHk9MCZydHA9cG9zLjEyLjI3OTk5OTczMjk3MTE5MV83OS4wNjk5OTk2OTQ4MjQyMl9fVGlydXZhbm5hbWFsYWlfX3NffnBvcy4xMC44MDA4MjMyMTE2Njk5MjJfNzguNjg5OTE4NTE4MDY2NF9fVGlydWNoaXJhcHBhbGxpJTJDJTIwVE5fX2VfJm1vZGU9bSZ2PTImc1Y9MSZGT1JNPVNOQVBTVA&ntb=1
+                - generic [ref=e199]:
+                  - generic [ref=e200]: 2 hr 57 min
+                  - generic [ref=e201]: 195 km
+                - generic [ref=e202]:
+                  - generic "Via Thirukovilur Road, NH38" [ref=e203]
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: Light traffic
+                    - generic [ref=e206]: · Toll on route
+              - link "Get Directions" [ref=e210] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=1cb3977fd6763950a35af14b5c221963f967b5da17f4316d4f5c695bd8db7460JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_Jm1lcGk9NjJ-RGlyZWN0aW9uc35FbWJlZGRlZH4mdHk9MCZydHA9cG9zLjEyLjI3OTk5OTczMjk3MTE5MV83OS4wNjk5OTk2OTQ4MjQyMl9fVGlydXZhbm5hbWFsYWlfX3NffnBvcy4xMC44MDA4MjMyMTE2Njk5MjJfNzguNjg5OTE4NTE4MDY2NF9fVGlydWNoaXJhcHBhbGxpJTJDJTIwVE5fX2VfJm1vZGU9bSZ2PTImc1Y9MSZGT1JNPVNOQVBTVA&ntb=1
+        - listitem [ref=e212]:
+          - link "fromto.travel" [ref=e214] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c6a16f5eaf17ca5fbc10a057e57f447fa8358e4899813ee21facdc10cfff48aeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RhLXRpcnV2YW5uYW1hbGFpL3RyaWNoeQ&ntb=1
+            - generic [ref=e219]:
+              - generic [ref=e220]: fromto.travel
+              - generic [ref=e221]: https://fromto.travel › en › india › ta-tiruvannamalai › trichy
+          - heading [level=2] [ref=e224]:
+            - link "Tiruvannamalai to Trichy – distance, time, fares" [ref=e225] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c6a16f5eaf17ca5fbc10a057e57f447fa8358e4899813ee21facdc10cfff48aeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RhLXRpcnV2YW5uYW1hbGFpL3RyaWNoeQ&ntb=1
+          - paragraph [ref=e227]: "Plan your trip from Tiruvannamalai to Trichy: distance 185 km, travel time 2 h 50 min , cheapest fares from $10, direct car and …"
+        - listitem [ref=e228]:
+          - link "DistancesFrom" [ref=e230] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=082478a0c9ea43fcab326e2097592c96e30deb9d90ccef9ab9a37257cdc99db2JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS1UaXJ1dmFubmFtYWxhaS10by1UcmljaHkvRGlzdGFuY2VIaXN0b3J5LzM3MTkwMC5hc3B4&ntb=1
+            - generic [ref=e235]:
+              - generic [ref=e236]: DistancesFrom
+              - generic [ref=e237]: https://www.distancesfrom.com › in › distance-from-Tiruvannamalai-to...
+          - heading [level=2] [ref=e240]:
+            - link "188 Km - Distance from Tiruvannamalai to Trichy" [ref=e241] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=082478a0c9ea43fcab326e2097592c96e30deb9d90ccef9ab9a37257cdc99db2JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS1UaXJ1dmFubmFtYWxhaS10by1UcmljaHkvRGlzdGFuY2VIaXN0b3J5LzM3MTkwMC5hc3B4&ntb=1
+          - paragraph [ref=e243]: How far is Trichy from Tiruvannamalai? What is the distance between Tiruvannamalai to Trichy? The distance between …
+        - listitem [ref=e244]:
+          - link "distancebetween2.com" [ref=e246] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e78edc2a7a356f495d3edfb76294702b9d4aed301b8d899bebc6d16b8a131813JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9kaXN0YW5jZWJldHdlZW4yLmNvbS90aXJ1dmFubmFtYWxhaS90cmljaHk&ntb=1
+            - generic [ref=e251]:
+              - generic [ref=e252]: distancebetween2.com
+              - generic [ref=e253]: https://distancebetween2.com › tiruvannamalai › trichy
+          - heading [level=2] [ref=e256]:
+            - link "Distance between Tiruvannamalai and Trichy is 152 KM / 94.8 miles" [ref=e257] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=e78edc2a7a356f495d3edfb76294702b9d4aed301b8d899bebc6d16b8a131813JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9kaXN0YW5jZWJldHdlZW4yLmNvbS90aXJ1dmFubmFtYWxhaS90cmljaHk&ntb=1
+          - paragraph [ref=e259]: Tiruvannamalai is located around 164 KM away from Trichy so if you travel at the consistent speed of 50 KM per hour you can reach …
+        - listitem [ref=e260]:
+          - link "DistancesFrom" [ref=e262] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=42eda660b2b214f29cc6104622cb6c21e0bfd876e236a562742f39901d4692a3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS10aGlydXZhbm5hbWFsYWktdG8tVHJpY2h5L0Rpc3RhbmNlSGlzdG9yeS8zMTgwNjE3NC5hc3B4&ntb=1
+            - generic [ref=e267]:
+              - generic [ref=e268]: DistancesFrom
+              - generic [ref=e269]: https://www.distancesfrom.com › in › distance-from-thiruvannamalai-to...
+          - heading "186 Km - Distance from thiruvannamalai to Trichy" [level=2] [ref=e272]:
+            - link "186 Km - Distance from thiruvannamalai to Trichy":
+              - /url: https://www.bing.com/ck/a?!&&p=42eda660b2b214f29cc6104622cb6c21e0bfd876e236a562742f39901d4692a3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS10aGlydXZhbm5hbWFsYWktdG8tVHJpY2h5L0Rpc3RhbmNlSGlzdG9yeS8zMTgwNjE3NC5hc3B4&ntb=1
+          - paragraph [ref=e274]: What is the distance between thiruvannamalai to Trichy? The distance between thiruvannamalai to Trichy is 186 Km by road. You …
+        - listitem [ref=e275]:
+          - link "All Distance Between" [ref=e277] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a002efb12280d8b122a18da3c5786f2846b35e3b8b56d05f85f2f7e3bdcff709JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9hbGxkaXN0YW5jZWJldHdlZW4uY29tL2luL2Rpc3RhbmNlLWJldHdlZW4vdGlydXZhbm5hbWFsYWktdHJpY2h5LTdhOWVjNTY4NmRlZGVhYzZjNmNlNjkwMDBiMzlkMTdkLw&ntb=1
+            - generic [ref=e282]:
+              - generic [ref=e283]: All Distance Between
+              - generic [ref=e284]: https://alldistancebetween.com › in › distance-between
+          - heading "Distance between Tiruvannamalai and Trichy" [level=2] [ref=e287]:
+            - link "Distance between Tiruvannamalai and Trichy":
+              - /url: https://www.bing.com/ck/a?!&&p=a002efb12280d8b122a18da3c5786f2846b35e3b8b56d05f85f2f7e3bdcff709JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9hbGxkaXN0YW5jZWJldHdlZW4uY29tL2luL2Rpc3RhbmNlLWJldHdlZW4vdGlydXZhbm5hbWFsYWktdHJpY2h5LTdhOWVjNTY4NmRlZGVhYzZjNmNlNjkwMDBiMzlkMTdkLw&ntb=1
+          - paragraph [ref=e289]: Approximate driving distance between Tiruvannamalai and Trichy is 187.00 kms or 116.20 miles or 100.97 nautical miles. Travel time …
+        - listitem [ref=e290]:
+          - link "Rome2rio" [ref=e292] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=622b98ca13e7b7ac6b8fbc1ce7880d6e3de40aeca2ee217cce1fc2b27c5c6050JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvVGlydXZhbm4lQzQlODFtYWxhaS9UaXJ1Y2hpcmFwcGFsbGk&ntb=1
+            - generic [ref=e297]:
+              - generic [ref=e298]: Rome2rio
+              - generic [ref=e299]: https://www.rome2rio.com › Tiruvannāmalai › Tiruchirappalli
+          - heading "Tiruvannāmalai to Tiruchirappalli - 5 ways to travel via train, bus ..." [level=2] [ref=e302]:
+            - link "Tiruvannāmalai to Tiruchirappalli - 5 ways to travel via train, bus ...":
+              - /url: https://www.bing.com/ck/a?!&&p=622b98ca13e7b7ac6b8fbc1ce7880d6e3de40aeca2ee217cce1fc2b27c5c6050JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvVGlydXZhbm4lQzQlODFtYWxhaS9UaXJ1Y2hpcmFwcGFsbGk&ntb=1
+          - paragraph [ref=e304]: More details Can I drive from Tiruvannāmalai to Tiruchirappalli? Yes, the driving distance between Tiruvannāmalai to Tiruchirappalli …
+        - listitem [ref=e305]:
+          - link "fromto.travel" [ref=e307] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3ab4ead6f0126cd04730748235ba072a93aeae38b5f76fe17ea934ea753c680aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RyaWNoeS90YS10aXJ1dmFubmFtYWxhaQ&ntb=1
+            - generic [ref=e312]:
+              - generic [ref=e313]: fromto.travel
+              - generic [ref=e314]: https://fromto.travel › en › india › trichy › ta-tiruvannamalai
+          - heading "Trichy to Tiruvannamalai – distance, time, fares" [level=2] [ref=e317]:
+            - link "Trichy to Tiruvannamalai – distance, time, fares":
+              - /url: https://www.bing.com/ck/a?!&&p=3ab4ead6f0126cd04730748235ba072a93aeae38b5f76fe17ea934ea753c680aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RyaWNoeS90YS10aXJ1dmFubmFtYWxhaQ&ntb=1
+          - paragraph [ref=e319]: "Plan your trip from Trichy to Tiruvannamalai: distance 185 km, travel time 2 h 48 min , cheapest fares from $10, direct car and …"
+        - listitem [ref=e320]:
+          - link "Tour Travel World" [ref=e322] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=43b1fa314d69de9fec8833c10cb766fb513610e4718491cde6f4160e3eb97fc2JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudG91cnRyYXZlbHdvcmxkLmNvbS9kaXN0YW5jZS1iZXR3ZWVuL2Rpc3RhbmNlLWZyb20tdGlydXZhbm5hbWFsYWktdG8tdGlydWNoaXJhcHBhbGxpLmh0bQ&ntb=1
+            - generic [ref=e327]:
+              - generic [ref=e328]: Tour Travel World
+              - generic [ref=e329]: https://www.tourtravelworld.com › distance-between › distance-from...
+          - heading "Tiruvannamalai to Tiruchirappalli Distance | Duration, Route Map ..." [level=2] [ref=e332]:
+            - link "Tiruvannamalai to Tiruchirappalli Distance | Duration, Route Map ...":
+              - /url: https://www.bing.com/ck/a?!&&p=43b1fa314d69de9fec8833c10cb766fb513610e4718491cde6f4160e3eb97fc2JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudG91cnRyYXZlbHdvcmxkLmNvbS9kaXN0YW5jZS1iZXR3ZWVuL2Rpc3RhbmNlLWZyb20tdGlydXZhbm5hbWFsYWktdG8tdGlydWNoaXJhcHBhbGxpLmh0bQ&ntb=1
+          - paragraph [ref=e334]: Find the exact distance between Tiruvannamalai to Tiruchirappalli by road, bus, flight & train. Get travel time, route map, and trip …
+        - listitem [ref=e335]:
+          - link "Rome2rio" [ref=e337] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=42de5d38088914c37b8811659238eb11d1dc117eac91e29d67115efe89562e04JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvVGlydXZhbm4lQzQlODFtYWxhaS9UcmljaHk&ntb=1
+            - generic [ref=e342]:
+              - generic [ref=e343]: Rome2rio
+              - generic [ref=e344]: https://www.rome2rio.com › Tiruvannāmalai › Trichy
+          - heading "Tiruvannāmalai to Trichy - 5 ways to travel via train, bus ... - Rome2rio" [level=2] [ref=e347]:
+            - link "Tiruvannāmalai to Trichy - 5 ways to travel via train, bus ... - Rome2rio":
+              - /url: https://www.bing.com/ck/a?!&&p=42de5d38088914c37b8811659238eb11d1dc117eac91e29d67115efe89562e04JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvVGlydXZhbm4lQzQlODFtYWxhaS9UcmljaHk&ntb=1
+          - paragraph [ref=e349]: Yes, the driving distance between Tiruvannāmalai to Trichy is 178 km. It takes approximately 2h 45m to drive from Tiruvannāmalai to …
+        - listitem [ref=e350]:
+          - generic [ref=e352]:
+            - heading "People also ask" [level=2] [ref=e353]
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - heading [level=3] [ref=e359]:
+                  - button "How far is Tiruvannamalai from Trichy?" [ref=e360] [cursor=pointer]
+              - listitem [ref=e362]:
+                - heading [level=3] [ref=e363]:
+                  - button "Is there a direct train from Thiruvannamalai to Trichy?" [ref=e364] [cursor=pointer]
+              - listitem [ref=e366]:
+                - heading [level=3] [ref=e367]:
+                  - button "Is there a train from Tiruvannamalai to Tiruchirappalli?" [ref=e368] [cursor=pointer]
+        - listitem [ref=e371]:
+          - generic [ref=e372]:
+            - heading [level=2] [ref=e373]:
+              - text: Deep dive into
+              - strong [ref=e374]: Tiruvannamalai to Trichy distance km driving time
+            - list [ref=e375]:
+              - listitem [ref=e376]:
+                - link [ref=e377] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e159112ea72d67fd191dc99e263b2e5dbbbc4576e1264e9569716385128308beJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaSt0cmFpbiZGT1JNPVFTUkUx&ntb=1
+                  - generic [ref=e379]:
+                    - text: Trichy to tiruvannamalai
+                    - strong [ref=e380]: train
+              - listitem [ref=e381]:
+                - link [ref=e382] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9f707335714fbd58b846533c7570e37227d875760507e1bea5b50d7041bb3de4JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPUNoZW5uYWkrdG8rdGlydXZhbm5hbWFsYWkrZGlzdGFuY2UmRk9STT1RU1JFMg&ntb=1
+                  - generic [ref=e384]:
+                    - strong [ref=e385]: chennai
+                    - text: to tiruvannamalai distance
+              - listitem [ref=e386]:
+                - link [ref=e387] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ab43d043fd76b30d8f3e4c4fd48c7de9303e28b8543336c15863785ba32ecd4cJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaStidXMrdGltaW5ncyZGT1JNPVFTUkUz&ntb=1
+                  - generic [ref=e389]:
+                    - text: Trichy to tiruvannamalai
+                    - strong [ref=e390]: bus timings
+              - listitem [ref=e391]:
+                - link [ref=e392] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=92b3cd8dd77faf254ca3c901a290fa6450368e6315fa7afb3568eb11af23d672JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaStyb3V0ZSZGT1JNPVFTUkU0&ntb=1
+                  - generic [ref=e394]:
+                    - text: Trichy to tiruvannamalai
+                    - strong [ref=e395]: route
+              - listitem [ref=e396]:
+                - link [ref=e397] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4861c0e0d1f9d2b806102bc011fe10adbf63abdee56ad562ce9ad0074f5197dcJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaSt0aW1ldGFibGUmRk9STT1RU1JFNQ&ntb=1
+                  - generic [ref=e399]:
+                    - text: Trichy to tiruvannamalai
+                    - strong [ref=e400]: timetable
+              - listitem [ref=e401]:
+                - link [ref=e402] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b4e357af9e55d3e84bda5d10e44ebbd4dbb101f7f31244f9b892222b77736632JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPWRpc3RhbmNlK2JldHdlZW4rVGlydWNoaXJhcHBhbGxpK2FuZCt0aXJ1dmFubmFtYWxhaSZGT1JNPVFTUkU2&ntb=1
+                  - generic [ref=e404]:
+                    - text: distance
+                    - strong [ref=e405]: between Tiruchirappalli and
+                    - text: tiruvannamalai
+              - listitem [ref=e406]:
+                - link [ref=e407] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9dd1ad82c6148824091768e7a3cc6cfc34a79f45777ff29a24c47cdcd1258b78JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPXRpcnV2YW5uYW1hbGFpK3RvK3RpcnVjaGlyYXBhbGxpK2Rpc3RhbmNlJkZPUk09UVNSRTc&ntb=1
+                  - generic [ref=e409]:
+                    - text: tiruvannamalai to
+                    - strong [ref=e410]: tiruchirapalli
+                    - text: distance
+              - listitem [ref=e411]:
+                - link [ref=e412] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1361a4c4f51d032f63af64ff74267ee1c9ed150a832162944e3bf9d132de2cfcJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRpcnVjaGlyYXBwYWxsaSt0byt0aXJ1dmFubmFtYWxhaSt0cmFpbit0aW1pbmdzJkZPUk09UVNSRTg&ntb=1
+                  - generic [ref=e414]:
+                    - strong [ref=e415]: tiruchirappalli
+                    - text: to tiruvannamalai
+                    - strong [ref=e416]: train timings
+        - listitem [ref=e417]:
+          - generic [ref=e418]:
+            - link "Some results have been removed" [ref=e419] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=18e1d1212ce11b7629beb08460ae2b384e793d5ea23a9084277056c57c93a8e3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+            - generic [ref=e420]: Some results have been hidden because they may be inaccessible to you.
+            - link "Show inaccessible results" [ref=e421] [cursor=pointer]:
+              - /url: /search?q=Tiruvannamalai+to+Trichy+distance+km+driving+time&ubiroff=1&FORM=P4041
+        - listitem [ref=e422]:
+          - navigation "More results for Tiruvannamalai to Trichy distance km driving time":
+            - list:
+              - listitem [ref=e423]:
+                - generic "Page 1" [ref=e424]: "1"
+              - listitem [ref=e425]:
+                - link "Page 2" [ref=e426] [cursor=pointer]:
+                  - /url: /search?q=Tiruvannamalai+to+Trichy+distance+km+driving+time&FPIG=2A90B4887ACA443E8CFD70E256AC55A8&first=10&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e427]:
+                - link "Page 3" [ref=e428] [cursor=pointer]:
+                  - /url: /search?q=Tiruvannamalai+to+Trichy+distance+km+driving+time&FPIG=2A90B4887ACA443E8CFD70E256AC55A8&first=20&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e429]:
+                - link "Next page" [ref=e430] [cursor=pointer]:
+                  - /url: /search?q=Tiruvannamalai+to+Trichy+distance+km+driving+time&FPIG=2A90B4887ACA443E8CFD70E256AC55A8&first=10&FORM=PORE
+      - complementary "Additional Results" [ref=e431]:
+        - list [ref=e432]:
+          - listitem [ref=e433]:
+            - generic "Related searches" [ref=e434]:
+              - generic [ref=e436]:
+                - heading [level=2] [ref=e438]:
+                  - text: Deep dive into
+                  - strong [ref=e439]: Tiruvannamalai to Trichy distance km driving time
+                - generic [ref=e440]:
+                  - link [ref=e442] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=e5f2021add065e40b92c8d6cdac3995f6da808d1a22589482384b80daba84e3bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaSt0cmFpbiZGT1JNPVI1RkQ&ntb=1
+                    - generic [ref=e444]:
+                      - text: Trichy to tiruvannamalai
+                      - strong [ref=e445]: train
+                  - link [ref=e447] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=0b9ee8adb9596d30312c4d4354f6659d7da8b78f4cb3721f1fc0501bde5b23d5JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPUNoZW5uYWkrdG8rdGlydXZhbm5hbWFsYWkrZGlzdGFuY2UmRk9STT1SNUZEMQ&ntb=1
+                    - generic [ref=e449]:
+                      - strong [ref=e450]: chennai
+                      - text: to tiruvannamalai distance
+                  - link [ref=e452] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=7721070ead842bf20bf2e89539689fa04a26a32c9df2c9bcb18606637cefca7eJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaStidXMrdGltaW5ncyZGT1JNPVI1RkQy&ntb=1
+                    - generic [ref=e454]:
+                      - text: Trichy to tiruvannamalai
+                      - strong [ref=e455]: bus timings
+                  - link [ref=e457] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=2e45a467587f775eceb38c4c11c12479c6ad4231a40d596862a0fa66ae393d35JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaStyb3V0ZSZGT1JNPVI1RkQz&ntb=1
+                    - generic [ref=e459]:
+                      - text: Trichy to tiruvannamalai
+                      - strong [ref=e460]: route
+                  - link [ref=e462] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=503db5de090d885d92db660b95e877fffa9c258432575071d814fb00d0f41c51JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRyaWNoeSt0byt0aXJ1dmFubmFtYWxhaSt0aW1ldGFibGUmRk9STT1SNUZENA&ntb=1
+                    - generic [ref=e464]:
+                      - text: Trichy to tiruvannamalai
+                      - strong [ref=e465]: timetable
+                  - link [ref=e467] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=27d00bb9c68c4f72d0cfc555da3747471941ec69a251e30b31b62a438d56af13JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPWRpc3RhbmNlK2JldHdlZW4rVGlydWNoaXJhcHBhbGxpK2FuZCt0aXJ1dmFubmFtYWxhaSZGT1JNPVI1RkQ1&ntb=1
+                    - generic [ref=e469]:
+                      - text: distance
+                      - strong [ref=e470]: between Tiruchirappalli and
+                      - text: tiruvannamalai
+                  - link [ref=e472] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=5a5135b13efa59203dee4706e4c93a82778ab35fa777333e58796094e2e38166JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPXRpcnV2YW5uYW1hbGFpK3RvK3RpcnVjaGlyYXBhbGxpK2Rpc3RhbmNlJkZPUk09UjVGRDY&ntb=1
+                    - generic [ref=e474]:
+                      - text: tiruvannamalai to
+                      - strong [ref=e475]: tiruchirapalli
+                      - text: distance
+                  - link [ref=e477] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=f24f4f7aca2eaf2f2eb85f3742a24bad214f7ceed1e828adc8d51708bf7d6c87JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVRpcnVjaGlyYXBwYWxsaSt0byt0aXJ1dmFubmFtYWxhaSt0cmFpbit0aW1pbmdzJkZPUk09UjVGRDc&ntb=1
+                    - generic [ref=e479]:
+                      - strong [ref=e480]: tiruchirappalli
+                      - text: to tiruvannamalai
+                      - strong [ref=e481]: train timings
+  - contentinfo [ref=e482]:
+    - generic [ref=e483]:
+      - list:
+        - listitem [ref=e484]:
+          - link "Privacy" [ref=e485] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=69ddaeaff1186233b5d68c60caef9f620701db7ef96511716ce7a706a2139690JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e486]:
+          - link "Terms" [ref=e487] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1ada26cda4e594f0f4160bfa4582ebcc7d488cb9d0ae3404bea371d69eb044acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+          - generic [ref=e488]: New

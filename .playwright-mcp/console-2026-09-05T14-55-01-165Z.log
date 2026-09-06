@@ -1,0 +1,9 @@
+[     594ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:9
+[     595ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:9
+[     595ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:9
+[     595ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:9
+[     595ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:9
+[     809ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/cricket/manifest.json:0
+[     810ms] [ERROR] Manifest fetch from https://www.bing.com/cricket/manifest.json failed, code 404 @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:20
+[    1171ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.bing.com/cricket/manifest.json:0
+[    1171ms] [ERROR] Manifest fetch from https://www.bing.com/cricket/manifest.json failed, code 404 @ https://www.bing.com/search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open:0

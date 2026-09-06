@@ -1,0 +1,215 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - button "Skip to content" [ref=f2e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f2e6] [cursor=pointer]
+    - generic [ref=f2e9]:
+      - link [ref=f2e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f2e11]
+      - search [ref=f2e12]:
+        - button "Search" [ref=f2e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f2e16]: Trichy Srirangam to Madurai distance km driving time NH38
+        - generic [ref=f2e17] [cursor=pointer]
+        - button "Search using an image" [ref=f2e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f2e24]:
+      - button "Microsoft Rewards" [ref=f2e25] [cursor=pointer]:
+        - generic [ref=f2e26]: Rewards
+      - link "Sign in" [ref=f2e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f2e44]:
+      - list [ref=f2e45]:
+        - listitem [ref=f2e46]:
+          - link "All" [ref=f2e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f2e48]:
+          - link "Search" [ref=f2e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=Trichy+Srirangam+to+Madurai+distance+km+driving+time+NH38&FORM=CSSCOP
+        - listitem [ref=f2e52]:
+          - link "Images" [ref=f2e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=40d86be92eec260e8f3ea90752e363fb09f598f0a8ce5cc4afd20742ded327bcJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2ltYWdlcy9zZWFyY2g_cT1UcmljaHkrU3JpcmFuZ2FtK3RvK01hZHVyYWkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lK05IMzgmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=f2e54]:
+          - link "Videos" [ref=f2e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8cee4f9e9716b49a2a8bf231e2b0485e0927c78243b996c967b0b87ab523f819JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UcmljaHkrU3JpcmFuZ2FtK3RvK01hZHVyYWkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lK05IMzgmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=f2e56]:
+          - link "Maps" [ref=f2e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=12e59c90104bff347d260fe46934eec5e664a5e11bbb99264c808d015054f686JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_cT1UcmljaHkrU3JpcmFuZ2FtK3RvK01hZHVyYWkrZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lK05IMzgmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=f2e58]:
+          - link "News" [ref=f2e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cd50dd195972474cf1803a4ea887271ad446ead7cc39fabc7fa552009e3992d1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L25ld3Mvc2VhcmNoP3E9VHJpY2h5K1NyaXJhbmdhbSt0bytNYWR1cmFpK2Rpc3RhbmNlK2ttK2RyaXZpbmcrdGltZStOSDM4JkZPUk09SERSU0M3&ntb=1
+        - listitem [ref=f2e60]:
+          - link "Copilot" [ref=f2e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0875d1d7c5ce229da862e50f404fbb01f8e6487dc003c66166e4df5cecb28743JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2NoYXQ_cHJvbXB0PVRyaWNoeStTcmlyYW5nYW0rdG8rTWFkdXJhaStkaXN0YW5jZStrbStkcml2aW5nK3RpbWUrTkgzOCZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+  - main "Search Results" [ref=f2e63]:
+    - generic [ref=f2e65]:
+      - generic [aria-hidden] [ref=f2e66]:
+        - generic [ref=f2e67] [cursor=pointer]
+        - generic [ref=f2e70] [cursor=pointer]
+        - generic [ref=f2e73] [cursor=pointer]
+      - text: About 104 results
+    - generic [ref=f2e76]:
+      - list [ref=f2e77]:
+        - listitem [ref=f2e78]:
+          - list [ref=f2e79]:
+            - listitem [ref=f2e80]:
+              - generic [ref=f2e81]:
+                - generic [ref=f2e82] [cursor=pointer]:
+                  - generic [ref=f2e83]: Rome2Rio
+                  - generic [ref=f2e88]:
+                    - generic [ref=f2e89]: https://www.rome2rio.com
+                    - button [ref=f2e90]:
+                      - img "About our ads" [ref=f2e92]
+                - heading [level=2] [ref=f2e93]:
+                  - link "Srirangam to Madurai Train - Train Srirangam to Madurai? - Find Your Best Routes" [ref=f2e94] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8ywWSI89h3yGdv56905EpcTVUCUzy9IWeI3yDPXBtVRGFW6fLdDj7OaDbFkNm5w47VXLwt-LSuGAV0ociy_Yng_J6W_ceQ8iNVMWvSQyP4fBh5dUcNjedEENiVHfORTdHg4Wxa9TxEV2OSmQbn7ma76PbSQ7C63OTa3T-CQzAKnDXQNfkkVRjCR_sxnYWNZ9Mo0-N-3jwuZX50Cyom7TkjWoirnc&u=aHR0cHMlM2ElMmYlMmZ3d3cucm9tZTJyaW8uY29tJTJmcyUyZlNyaXJhbmdhbSUyZk1hZHVyYWklM2Ztc2Nsa2lkJTNkNTdmZjY5NDIxNWYxMTQ0MWYxMDMwM2RlMzk0M2ZlOGQlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RNQURTX1NFTV9SV19FTl9QTUFYX05vRmVlZCUyNnV0bV90ZXJtJTNkd3d3LnJvbWUycmlvLmNvbSUyNnV0bV9jb250ZW50JTNkUE1BWC1HZW5lcmljLUVOLU5vZmVlZA&rlid=57ff694215f11441f10303de3943fe8d&ntb=1
+                - generic [ref=f2e95]:
+                  - generic [ref=f2e96]:
+                    - generic [ref=f2e97]: Sponsored
+                    - text: Explore thousands of transport options to get you from A to B effortlessly.. No matter where you are, find and book transport options effortlessly with Rome2Rio.
+                  - paragraph [ref=f2e100]: Accurate Schedules · Comprehensive Info · Fast Travel Insights
+        - listitem [ref=f2e101]:
+          - button "Hide" [ref=f2e106] [cursor=pointer]
+      - list [ref=f2e109]:
+        - listitem [ref=f2e110]:
+          - generic [ref=f2e114]:
+            - generic [ref=f2e116]:
+              - button "Like" [ref=f2e117]
+              - button "Dislike" [ref=f2e120]
+            - button "AI disclaimer" [ref=f2e123]
+        - listitem [ref=f2e148]:
+          - link "fromto.travel" [ref=f2e150] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=560bbad0b8cde8547abe8c62de08a36aff397b79a05704358454edae61992373JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3NyaXJhbmdhbS90YS1tYWR1cmFp&ntb=1
+            - img "Global web icon" [ref=f2e154]
+            - generic [ref=f2e155]:
+              - generic [ref=f2e156]: fromto.travel
+              - generic [ref=f2e157]: https://fromto.travel › en › india › srirangam › ta-madurai
+          - heading [level=2] [ref=f2e160]:
+            - link "Srirangam to Madurai – distance, time, fares - fromto.travel" [ref=f2e161] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=560bbad0b8cde8547abe8c62de08a36aff397b79a05704358454edae61992373JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3NyaXJhbmdhbS90YS1tYWR1cmFp&ntb=1
+          - paragraph [ref=f2e163]: "Plan your trip from Srirangam to Madurai: distance 131 km, travel time 2 h 2 min , cheapest fares from $7, direct car and rideshare …"
+        - listitem [ref=f2e164]:
+          - link "All Distance Between" [ref=f2e166] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=5d2cdf097a7a94a6e77d99a6a91f243865bdbdd87f53c9ec3fc6aab0ea6186cbJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9hbGxkaXN0YW5jZWJldHdlZW4uY29tL2luL2Rpc3RhbmNlLWJldHdlZW4vc3JpcmFuZ2FtLW1hZHVyYWktYTNkZThkYmQyN2I3MTY4ZTI5NmFhZTVlYzA3M2Q2YTMv&ntb=1
+            - generic [ref=f2e171]:
+              - generic [ref=f2e172]: All Distance Between
+              - generic [ref=f2e173]: https://alldistancebetween.com › in › distance-between
+          - heading [level=2] [ref=f2e176]:
+            - link "Distance between Srirangam and Madurai" [ref=f2e177] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=5d2cdf097a7a94a6e77d99a6a91f243865bdbdd87f53c9ec3fc6aab0ea6186cbJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9hbGxkaXN0YW5jZWJldHdlZW4uY29tL2luL2Rpc3RhbmNlLWJldHdlZW4vc3JpcmFuZ2FtLW1hZHVyYWktYTNkZThkYmQyN2I3MTY4ZTI5NmFhZTVlYzA3M2Q2YTMv&ntb=1
+          - paragraph [ref=f2e179]: It takes 2 hours 24 minutes to travel from Srirangam to Madurai. Approximate driving distance between Srirangam and Madurai is …
+        - listitem [ref=f2e180]:
+          - link "india-guide.in" [ref=f2e182] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=769746ee96446d99589ba3e8bdd4a6ed3f0929c4ac65b82613ddd76bd3f75666JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9pbmRpYS1ndWlkZS5pbi90cmF2ZWwvdHJpY2h5LXRvLW1hZHVyYWkv&ntb=1
+            - generic [ref=f2e187]:
+              - generic [ref=f2e188]: india-guide.in
+              - generic [ref=f2e189]: https://india-guide.in › travel › trichy-to-madurai
+          - heading [level=2] [ref=f2e192]:
+            - 'link "Trichy to Madurai During Festivals: Complete Survival Guide (2026)" [ref=f2e193] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=769746ee96446d99589ba3e8bdd4a6ed3f0929c4ac65b82613ddd76bd3f75666JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9pbmRpYS1ndWlkZS5pbi90cmF2ZWwvdHJpY2h5LXRvLW1hZHVyYWkv&ntb=1
+          - paragraph [ref=f2e195]: For this 135km journey, driving is your best option. The 2h 00m drive gives you flexibility to stop at attractions along the way and …
+        - listitem [ref=f2e196]:
+          - link "fromto.travel" [ref=f2e198] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=be6eaef93ea39e9f6c517bffaaa4c675c809034769cd61c1e482634f581e25eeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RyaWNoeS90YS1tYWR1cmFp&ntb=1
+            - generic [ref=f2e203]:
+              - generic [ref=f2e204]: fromto.travel
+              - generic [ref=f2e205]: https://fromto.travel › en › india › trichy › ta-madurai
+          - heading [level=2] [ref=f2e208]:
+            - link "Trichy to Madurai – distance, time, fares - fromto.travel" [ref=f2e209] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=be6eaef93ea39e9f6c517bffaaa4c675c809034769cd61c1e482634f581e25eeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9mcm9tdG8udHJhdmVsL2VuL2luZGlhL3RyaWNoeS90YS1tYWR1cmFp&ntb=1
+          - paragraph [ref=f2e211]: "Plan your trip from Trichy to Madurai: distance 118 km, travel time 1 h 49 min , cheapest fares from $6, direct car and rideshare options."
+        - listitem [ref=f2e212]:
+          - link "DistancesFrom" [ref=f2e214] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c12310eb6e1773c031377de295c0dc663387cd87c2ef2f15763fdea6ea770a01JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS10cmljaHktdG8tTWFkdXJhaS9EaXN0YW5jZUhpc3RvcnkvMjY1MjQuYXNweA&ntb=1
+            - generic [ref=f2e219]:
+              - generic [ref=f2e220]: DistancesFrom
+              - generic [ref=f2e221]: https://www.distancesfrom.com › in › distance-from-trichy-to-Madurai › ...
+          - heading [level=2] [ref=f2e224]:
+            - link "134 Km - Distance from trichy to Madurai" [ref=f2e225] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c12310eb6e1773c031377de295c0dc663387cd87c2ef2f15763fdea6ea770a01JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS10cmljaHktdG8tTWFkdXJhaS9EaXN0YW5jZUhpc3RvcnkvMjY1MjQuYXNweA&ntb=1
+          - paragraph [ref=f2e227]: What is the road driving distance between trichy to Madurai? The road driving distance between trichy to Madurai is 134 Km. …
+        - listitem [ref=f2e228]:
+          - link "Rome2rio" [ref=f2e230] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bd0c7497ae3bf0f05d919c623ef25a81dd10191aebe05328da02e433b3e2049fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvU3JpcmFuZ2FtL01hZHVyYWk&ntb=1
+            - img "Global web icon" [ref=f2e234]
+            - generic [ref=f2e235]:
+              - generic [ref=f2e236]: Rome2rio
+              - generic [ref=f2e237]: https://www.rome2rio.com › Srirangam › Madurai
+          - heading "Srirangam to Madurai - 4 ways to travel via train, bus, car, and taxi" [level=2] [ref=f2e240]:
+            - link "Srirangam to Madurai - 4 ways to travel via train, bus, car, and taxi":
+              - /url: https://www.bing.com/ck/a?!&&p=bd0c7497ae3bf0f05d919c623ef25a81dd10191aebe05328da02e433b3e2049fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvU3JpcmFuZ2FtL01hZHVyYWk&ntb=1
+          - paragraph [ref=f2e242]: Yes, the driving distance between Srirangam to Madurai is 134 km. It takes approximately 2h 6m to drive from Srirangam to Madurai.
+        - listitem [ref=f2e243]:
+          - link "DistancesFrom" [ref=f2e245] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8fd3aacc0e493c0d1444144fe151dd0e62bb437328550a9fbc23f417b29f1e1aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS1NYWR1cmFpLXRvLVNyaXJhbmdhbS1UaXJ1Y2hpcmFwcGFsbGkvRGlzdGFuY2VIaXN0b3J5LzQzNDUyNDkzLmFzcHg&ntb=1
+            - generic [ref=f2e250]:
+              - generic [ref=f2e251]: DistancesFrom
+              - generic [ref=f2e252]: https://www.distancesfrom.com › in › distance-from-Madurai-to-Srirangam-Ti...
+          - heading "142 Km - Distance from Madurai to Srirangam" [level=2] [ref=f2e255]:
+            - link "142 Km - Distance from Madurai to Srirangam":
+              - /url: https://www.bing.com/ck/a?!&&p=8fd3aacc0e493c0d1444144fe151dd0e62bb437328550a9fbc23f417b29f1e1aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGlzdGFuY2VzZnJvbS5jb20vaW4vZGlzdGFuY2UtZnJvbS1NYWR1cmFpLXRvLVNyaXJhbmdhbS1UaXJ1Y2hpcmFwcGFsbGkvRGlzdGFuY2VIaXN0b3J5LzQzNDUyNDkzLmFzcHg&ntb=1
+          - paragraph [ref=f2e257]: The road driving distance between Madurai to Srirangam is 142 Km. Depending on the vehicle you choose to travel, you can …
+        - listitem [ref=f2e258]:
+          - link "Yatra.com" [ref=f2e260] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1bdf67c98f0655a00524bb5f4add04fa5433d09e9e82e00df3acd743dcf7c6a0JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cueWF0cmEuY29tL2Rpc3RhbmNlLWJldHdlZW4vZGlzdGFuY2UtZnJvbS1zcmlyYW5nYW0tdG8tbWFkdXJhaS5odG1s&ntb=1
+            - generic [ref=f2e265]:
+              - generic [ref=f2e266]: Yatra.com
+              - generic [ref=f2e267]: https://www.yatra.com › ... › distance-from-srirangam-to-madurai.html
+          - heading "Srirangam To Madurai Distance - Yatra.com" [level=2] [ref=f2e270]:
+            - link "Srirangam To Madurai Distance - Yatra.com":
+              - /url: https://www.bing.com/ck/a?!&&p=1bdf67c98f0655a00524bb5f4add04fa5433d09e9e82e00df3acd743dcf7c6a0JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cueWF0cmEuY29tL2Rpc3RhbmNlLWJldHdlZW4vZGlzdGFuY2UtZnJvbS1zcmlyYW5nYW0tdG8tbWFkdXJhaS5odG1s&ntb=1
+          - paragraph [ref=f2e272]: Get Srirangam to Madurai road & flight Distance, Travel Duration by Road, Flight, Trains and Bus at Yatra.com. Also find Delhi to …
+        - listitem [ref=f2e273]:
+          - link "All Distance Between" [ref=f2e275] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=10ed94765603b99cdd558913423d7a1207ba296028610821ec0ead67b7fa4941JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9hbGxkaXN0YW5jZWJldHdlZW4uY29tL2luL2Rpc3RhbmNlLWJldHdlZW4vdHJpY2h5LW1hZHVyYWktODkzZWNjYWI0OTI4MWVlNzZmYTVjNTdkOTdlMTcxMzkv&ntb=1
+            - generic [ref=f2e280]:
+              - generic [ref=f2e281]: All Distance Between
+              - generic [ref=f2e282]: https://alldistancebetween.com › in › distance-between
+          - heading "Distance between Trichy and Madurai" [level=2] [ref=f2e285]:
+            - link "Distance between Trichy and Madurai":
+              - /url: https://www.bing.com/ck/a?!&&p=10ed94765603b99cdd558913423d7a1207ba296028610821ec0ead67b7fa4941JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9hbGxkaXN0YW5jZWJldHdlZW4uY29tL2luL2Rpc3RhbmNlLWJldHdlZW4vdHJpY2h5LW1hZHVyYWktODkzZWNjYWI0OTI4MWVlNzZmYTVjNTdkOTdlMTcxMzkv&ntb=1
+          - paragraph [ref=f2e287]: It takes 2 hours 12 minutes to travel from Trichy to Madurai. Approximate driving distance between Trichy and Madurai is 138.00 kms …
+        - listitem [ref=f2e288]:
+          - generic [ref=f2e290]:
+            - heading "People also ask" [level=2] [ref=f2e291]
+            - list [ref=f2e295]:
+              - listitem [ref=f2e296]:
+                - heading [level=3] [ref=f2e297]:
+                  - button "How far is Madurai from Srirangam?" [ref=f2e298] [cursor=pointer]
+              - listitem [ref=f2e300]:
+                - heading [level=3] [ref=f2e301]:
+                  - button "How far is Trichy from Madurai?" [ref=f2e302] [cursor=pointer]
+              - listitem [ref=f2e304]:
+                - heading [level=3] [ref=f2e305]:
+                  - button "Is there a direct bus from Srirangam to Madurai?" [ref=f2e306] [cursor=pointer]
+              - listitem [ref=f2e308]:
+                - heading [level=3] [ref=f2e309]:
+                  - button "How to get from Tiruchirapalli to Madurai?" [ref=f2e310] [cursor=pointer]
+        - listitem [ref=f2e313]:
+          - link "Some results have been removed" [ref=f2e315] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=18e1d1212ce11b7629beb08460ae2b384e793d5ea23a9084277056c57c93a8e3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=f2e316]:
+          - navigation "More results for Trichy Srirangam to Madurai distance km driving time NH38":
+            - list:
+              - listitem [ref=f2e317]:
+                - generic "Page 1" [ref=f2e318]: "1"
+              - listitem [ref=f2e319]:
+                - link "Page 2" [ref=f2e320] [cursor=pointer]:
+                  - /url: /search?q=Trichy+Srirangam+to+Madurai+distance+km+driving+time+NH38&FPIG=BA4DDB357F3042E59A0CEDC8D967277C&first=10&FORM=PERE
+                  - text: "2"
+              - listitem [ref=f2e321]:
+                - link "Page 3" [ref=f2e322] [cursor=pointer]:
+                  - /url: /search?q=Trichy+Srirangam+to+Madurai+distance+km+driving+time+NH38&FPIG=BA4DDB357F3042E59A0CEDC8D967277C&first=20&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=f2e323]:
+                - link "Next page" [ref=f2e324] [cursor=pointer]:
+                  - /url: /search?q=Trichy+Srirangam+to+Madurai+distance+km+driving+time+NH38&FPIG=BA4DDB357F3042E59A0CEDC8D967277C&first=10&FORM=PORE
+      - complementary "Additional Results"
+  - contentinfo [ref=f2e325]:
+    - generic [ref=f2e326]:
+      - list:
+        - listitem [ref=f2e327]:
+          - link "Privacy" [ref=f2e328] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=69ddaeaff1186233b5d68c60caef9f620701db7ef96511716ce7a706a2139690JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f2e329]:
+          - link "Terms" [ref=f2e330] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1ada26cda4e594f0f4160bfa4582ebcc7d488cb9d0ae3404bea371d69eb044acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+          - generic [ref=f2e331]: New

@@ -1,0 +1,290 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - button "Skip to content" [ref=f4e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f4e6] [cursor=pointer]
+    - generic [ref=f4e9]:
+      - link [ref=f4e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f4e11]
+      - search [ref=f4e12]:
+        - button "Search" [ref=f4e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f4e16]: Madurai to Rameswaram distance km driving time NH87
+        - generic [ref=f4e17] [cursor=pointer]
+        - button "Search using an image" [ref=f4e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f4e24]:
+      - button "Microsoft Rewards" [ref=f4e25] [cursor=pointer]:
+        - generic [ref=f4e26]: Rewards
+      - link "Sign in" [ref=f4e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f4e44]:
+      - list [ref=f4e45]:
+        - listitem [ref=f4e46]:
+          - link "All" [ref=f4e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f4e48]:
+          - link "Search" [ref=f4e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=Madurai+to+Rameswaram+distance+km+driving+time+NH87&FORM=CSSCOP
+        - listitem [ref=f4e52]:
+          - link "Shopping" [ref=f4e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b8617f5c8cb8bc6032040a46b2ef317ab645bc30324b6de62024197e14e76f34JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3Nob3AvdG9waWNzP3E9TWFkdXJhaSt0bytSYW1lc3dhcmFtK2Rpc3RhbmNlK2ttK2RyaXZpbmcrdGltZStOSDg3JkZPUk09U0hPUFRC&ntb=1
+        - listitem [ref=f4e54]:
+          - link "Images" [ref=f4e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=efbfe0ba6e482e4586df14921475f274ed937a5f8ecc0e16ffb93ec3433879c2JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2ltYWdlcy9zZWFyY2g_cT1NYWR1cmFpK3RvK1JhbWVzd2FyYW0rZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lK05IODcmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=f4e56]:
+          - link "Videos" [ref=f4e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b5c56d0d6e0f2c6dcc78c4faeda3b66fca6e15651f6a89e5604eefa7036fcb9dJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NYWR1cmFpK3RvK1JhbWVzd2FyYW0rZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lK05IODcmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=f4e58]:
+          - link "Maps" [ref=f4e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4ef24119e89158f80d6c0c8b6a0877a42124b2a8ebcbfa80f1e741abc2201939JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_cT1NYWR1cmFpK3RvK1JhbWVzd2FyYW0rZGlzdGFuY2Ura20rZHJpdmluZyt0aW1lK05IODcmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=f4e60]:
+          - link "Copilot" [ref=f4e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4396b09713da0e14e08a860de8092723aeb2b404ae551cf67e5d7ea2f00d7bf1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2NoYXQ_cHJvbXB0PU1hZHVyYWkrdG8rUmFtZXN3YXJhbStkaXN0YW5jZStrbStkcml2aW5nK3RpbWUrTkg4NyZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+  - generic [ref=f4e62]:
+    - main "Search Results" [ref=f4e63]:
+      - generic [ref=f4e65]:
+        - generic [aria-hidden] [ref=f4e66]:
+          - generic [ref=f4e67] [cursor=pointer]
+          - generic [ref=f4e70] [cursor=pointer]
+          - generic [ref=f4e73] [cursor=pointer]
+        - text: About 669 results
+      - list [ref=f4e76]:
+        - listitem [ref=f4e77]:
+          - generic [ref=f4e81]:
+            - generic [ref=f4e83]:
+              - button "Like" [ref=f4e84]
+              - button "Dislike" [ref=f4e87]
+            - button "AI disclaimer" [ref=f4e90]
+        - listitem [ref=f4e115]:
+          - list [ref=f4e116]:
+            - listitem [ref=f4e117]:
+              - generic [ref=f4e118]:
+                - generic [ref=f4e119] [cursor=pointer]:
+                  - generic [ref=f4e120]: Rome2Rio
+                  - generic [ref=f4e125]:
+                    - generic [ref=f4e126]: www.rome2rio.com
+                    - button [ref=f4e129]:
+                      - img "About our ads" [ref=f4e131]
+                - heading [level=2] [ref=f4e132]:
+                  - link "Madurai to Rameswaram? | Plan Your Perfect Trip!" [ref=f4e134] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e89pUqwg68hR6HQULAIYw4czVUCUw6Hswz2H-4tNh03AA6ncvbokoUmABRiovRBxSlnIPjl4kQhZe_aYpJN5-_2BJJN6qT5JJrf94c_oQKJcPDlYI-3k6ltiJdGvkEWreAMYqy4j3NqTXUwrhtRf9z-qoTHnqrOo7hJrubpiS9ndHN-MUSzpDZs-rB0-YjkESioPJIttjprqHP01BKnVwX6E7q5A0&u=aHR0cHMlM2ElMmYlMmZ3d3cucm9tZTJyaW8uY29tJTJmcyUyZk1hZHVyYWklMmZSYW1lc3dhcmFtJTNmbXNjbGtpZCUzZDA3NTdmZDI2ZTNiOTFmYWY4YWFhOTdiYWNmNTQ2N2EzJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkTUFEU19TRU1fUldfRU5fUE1BWF9Ob0ZlZWQlMjZ1dG1fdGVybSUzZHd3dy5yb21lMnJpby5jb20lMjZ1dG1fY29udGVudCUzZFBNQVgtR2VuZXJpYy1FTi1Ob2ZlZWQ&rlid=0757fd26e3b91faf8aaa97bacf5467a3&ntb=1
+                - generic [ref=f4e135]:
+                  - generic [ref=f4e137]:
+                    - generic [ref=f4e138]: Sponsored
+                    - text: Explore thousands of transport options to get you from A to B effortlessly. From trains to ferries, plan every step of your trip with Rome2Rio today!
+                  - paragraph [ref=f4e141]: Accurate Schedules · Comprehensive Info · Fast Travel Insights
+                  - generic [ref=f4e142]: Accommodation Types, City Centre Options, Aparthotels, Sea View Apartments and more
+        - listitem [ref=f4e143]:
+          - link "vayabletrip.com" [ref=f4e146] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=34801561b9d314af172ec87ee35f02d5a61b4bf797a0689f814cd9fc7afbd060JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudmF5YWJsZXRyaXAuY29tL2Jsb2cvbWFkdXJhaS10by1yYW1lc3dhcmFtLXJvYWQtdHJpcC1kaXN0YW5jZS1iZXN0LXJvdXRlLXBsYWNlcy10by1zdG9w&ntb=1
+            - generic [ref=f4e151]:
+              - generic [ref=f4e152]: vayabletrip.com
+              - generic [ref=f4e153]: https://www.vayabletrip.com › blog › madurai-to-rameswaram-road-trip...
+          - heading [level=2] [ref=f4e156]:
+            - 'link "Madurai to Rameswaram Road Trip: Distance, Best Route & Places …" [ref=f4e158] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=34801561b9d314af172ec87ee35f02d5a61b4bf797a0689f814cd9fc7afbd060JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudmF5YWJsZXRyaXAuY29tL2Jsb2cvbWFkdXJhaS10by1yYW1lc3dhcmFtLXJvYWQtdHJpcC1kaXN0YW5jZS1iZXN0LXJvdXRlLXBsYWNlcy10by1zdG9w&ntb=1
+          - paragraph [ref=f4e160]:
+            - generic [ref=f4e161]: 6 Aug 2026 · Planning a Madurai to Rameswaram road trip? Get the exact distance, best NH87 route, drive time, top stops like …
+        - listitem [ref=f4e162]:
+          - link "experiencemyindia.com" [ref=f4e165] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=46500053e3368951337de6a63ae59c4334f086db3332c3155f8f489500d618beJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9leHBlcmllbmNlbXlpbmRpYS5jb20vbWFkdXJhaS10by1yYW1lc2h3YXJhbS1kaXN0YW5jZS8&ntb=1
+            - generic [ref=f4e170]:
+              - generic [ref=f4e171]: experiencemyindia.com
+              - generic [ref=f4e172]: https://experiencemyindia.com › madurai-to-rameshwaram-distance
+          - heading [level=2] [ref=f4e175]:
+            - 'link "Madurai to Rameshwaram Distance: Your Complete Travel Guide" [ref=f4e177] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=46500053e3368951337de6a63ae59c4334f086db3332c3155f8f489500d618beJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9leHBlcmllbmNlbXlpbmRpYS5jb20vbWFkdXJhaS10by1yYW1lc2h3YXJhbS1kaXN0YW5jZS8&ntb=1
+          - paragraph [ref=f4e179]:
+            - generic [ref=f4e180]: 27 Apr 2025 · The Madurai to Rameshwaram distance is approximately 172.6 kilometers via NH87, taking about 2 hours and 55 …
+        - listitem [ref=f4e181]:
+          - link "Google" [ref=f4e184] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=5dcce4827b6ffd3dbacb339a58dd1d5276581fe9cb711bceb11c9696c6b1407eJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC9UcmF2ZWwrTWFkdXJhaSt0bytSYW1lc2h3YXJhbSUyQytSYW1lc2h3YXJhbSUyQytJbmRpYQ&ntb=1
+            - generic [ref=f4e189]:
+              - generic [ref=f4e190]: Google
+              - generic [ref=f4e191]: https://www.google.com › maps › search › Travel+Madurai+to+Rameshwara…
+          - heading [level=2] [ref=f4e194]:
+            - link "Get directions - Tamil Nadu, India to Tamil Nadu, India - Google" [ref=f4e196] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=5dcce4827b6ffd3dbacb339a58dd1d5276581fe9cb711bceb11c9696c6b1407eJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC9UcmF2ZWwrTWFkdXJhaSt0bytSYW1lc2h3YXJhbSUyQytSYW1lc2h3YXJhbSUyQytJbmRpYQ&ntb=1
+          - paragraph [ref=f4e198]: This route has tolls. These directions are for planning purposes only. You may find that construction projects, traffic, weather, or other …
+        - listitem [ref=f4e199]:
+          - link "india-guide.in" [ref=f4e202] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ef6d6a8409cd3d6f2004e70b3551693cab236d4d2a1fbba557f87237e8dc9233JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9pbmRpYS1ndWlkZS5pbi90cmF2ZWwvbWFkdXJhaS10by1yYW1lc3dhcmFtLw&ntb=1
+            - generic [ref=f4e207]:
+              - generic [ref=f4e208]: india-guide.in
+              - generic [ref=f4e209]: https://india-guide.in › travel › madurai-to-rameswaram
+          - heading [level=2] [ref=f4e212]:
+            - 'link "Madurai to Rameswaram: 175 km Road Guide" [ref=f4e214] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=ef6d6a8409cd3d6f2004e70b3551693cab236d4d2a1fbba557f87237e8dc9233JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9pbmRpYS1ndWlkZS5pbi90cmF2ZWwvbWFkdXJhaS10by1yYW1lc3dhcmFtLw&ntb=1
+          - paragraph [ref=f4e216]: "Madurai→Rameswaram: 175 km via NH-87 · 3h 30m drive · Fuel+tolls ~₹1,671 · 3 stops en route. Full itinerary, route map & real …"
+        - listitem [ref=f4e217]:
+          - link "travellerkaka.com" [ref=f4e220] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=457465d7652be9014401f678ea56fb4fcfa37e5d4d118108a0c301a543c7c41bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmF2ZWxsZXJrYWthLmNvbS9tYWR1cmFpLXRvLXJhbWVzaHdhcmFtLWRpc3RhbmNlLWd1aWRlLw&ntb=1
+            - generic [ref=f4e225]:
+              - generic [ref=f4e226]: travellerkaka.com
+              - generic [ref=f4e227]: https://travellerkaka.com › madurai-to-rameshwaram-distance-guide
+          - heading [level=2] [ref=f4e230]:
+            - 'link "Madurai to Rameshwaram Distance: Best Ways to Travel (2026 …" [ref=f4e232] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=457465d7652be9014401f678ea56fb4fcfa37e5d4d118108a0c301a543c7c41bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmF2ZWxsZXJrYWthLmNvbS9tYWR1cmFpLXRvLXJhbWVzaHdhcmFtLWRpc3RhbmNlLWd1aWRlLw&ntb=1
+          - paragraph [ref=f4e234]:
+            - generic [ref=f4e235]: 21 Jul 2026 · The total madurai to rameshwaram distancevia NH87 is approximately 175 km. Depending on the traffic in Madurai city …
+        - listitem [ref=f4e236]:
+          - link "nseater.com" [ref=f4e239] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1be7f1587bbb966e60882a22e5dbf183decc91969b8c06c07454a80c65cd9359JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9ibG9nLWFwaS5uc2VhdGVyLmNvbS9ibG9nL21hZHVyYWktdG8tcmFtZXNod2FyYW0v&ntb=1
+            - generic [ref=f4e244]:
+              - generic [ref=f4e245]: nseater.com
+              - generic [ref=f4e246]: https://blog-api.nseater.com › blog › madurai-to-rameshwaram
+          - heading [level=2] [ref=f4e249]:
+            - link "Madurai to Rameshwaram Distance, Taxi & Bus Guide" [ref=f4e251] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=1be7f1587bbb966e60882a22e5dbf183decc91969b8c06c07454a80c65cd9359JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9ibG9nLWFwaS5uc2VhdGVyLmNvbS9ibG9nL21hZHVyYWktdG8tcmFtZXNod2FyYW0v&ntb=1
+          - paragraph [ref=f4e253]:
+            - generic [ref=f4e254]: 31 Mar 2026 · The Madurai to Rameshwaram distance is around 170 kilometres by road, and it usually takes 3 to 4 hours to reach. …
+        - listitem [ref=f4e255]:
+          - link "plantamilnadu.com" [ref=f4e258] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c78919acaf1810cce96a418d000a05bd18d2fcf36acdca742e01c7e4221f086dJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9wbGFudGFtaWxuYWR1LmNvbS9ibG9nL21hZHVyYWktdG8tcmFtZXN3YXJhbS1kaXN0YW5jZS1yb3V0ZQ&ntb=1
+            - generic [ref=f4e263]:
+              - generic [ref=f4e264]: plantamilnadu.com
+              - generic [ref=f4e265]: https://plantamilnadu.com › blog › madurai-to-rameswaram-distance-route
+          - heading [level=2] [ref=f4e268]:
+            - link "Madurai to Rameswaram Distance, Route & Travel Time Guide" [ref=f4e269] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c78919acaf1810cce96a418d000a05bd18d2fcf36acdca742e01c7e4221f086dJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9wbGFudGFtaWxuYWR1LmNvbS9ibG9nL21hZHVyYWktdG8tcmFtZXN3YXJhbS1kaXN0YW5jZS1yb3V0ZQ&ntb=1
+          - paragraph [ref=f4e271]:
+            - generic [ref=f4e272]: 16 Jul 2026 · For most travellers, the distance is manageable in half a day by private car. But the full experience depends on your …
+        - listitem [ref=f4e273]:
+          - link "Bharat Taxi" [ref=f4e276] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=df0db62cad1c3a9204a6010c735ab91ddb899b4feb4baae6617ce0df685411edJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuYmhhcmF0dGF4aS5jb20vYmxvZy9tYWR1cmFpLXRvLXJhbWVzd2FyYW0tcm9hZC10cmlw&ntb=1
+            - generic [ref=f4e281]:
+              - generic [ref=f4e282]: Bharat Taxi
+              - generic [ref=f4e283]: https://www.bharattaxi.com › blog › madurai-to-rameswaram-road-trip
+          - heading [level=2] [ref=f4e286]:
+            - link "Madurai to Rameswaram Road Trip - Guide - Route - Distance" [ref=f4e287] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=df0db62cad1c3a9204a6010c735ab91ddb899b4feb4baae6617ce0df685411edJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuYmhhcmF0dGF4aS5jb20vYmxvZy9tYWR1cmFpLXRvLXJhbWVzd2FyYW0tcm9hZC10cmlw&ntb=1
+          - paragraph [ref=f4e289]:
+            - generic [ref=f4e290]: 13 Apr 2023 · It takes about three hours to travel the 175 km between Madurai and Rameswaram. On one side of this route is the …
+        - listitem [ref=f4e291]:
+          - link "Rome2rio" [ref=f4e294] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b7ec3ce1cd740f05932f7005d9f905e8736c0b3b30385d1d9526b87e24e8069aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvTWFkdXJhaS9SYW1lc3dhcmFt&ntb=1
+            - generic [ref=f4e299]:
+              - generic [ref=f4e300]: Rome2rio
+              - generic [ref=f4e301]: https://www.rome2rio.com › Madurai › Rameswaram
+          - heading [level=2] [ref=f4e304]:
+            - link "Madurai to Rameswaram - 5 ways to travel via train, bus, car, and taxi" [ref=f4e305] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=b7ec3ce1cd740f05932f7005d9f905e8736c0b3b30385d1d9526b87e24e8069aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucm9tZTJyaW8uY29tL3MvTWFkdXJhaS9SYW1lc3dhcmFt&ntb=1
+          - paragraph [ref=f4e307]: Drive from Madurai to Rameswaramcar. 169.1 km. 2h 56m.
+        - listitem [ref=f4e308]:
+          - link "travellerkaka.com" [ref=f4e311] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=914c888090140532b1d3697734b0a589623f21160cef1c1227936998133b4396JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmF2ZWxsZXJrYWthLmNvbS9tYWR1cmFpLWFpcnBvcnQtdG8tcmFtZXNod2FyYW0tdHJhdmVsLWd1aWRlLw&ntb=1
+            - generic [ref=f4e316]:
+              - generic [ref=f4e317]: travellerkaka.com
+              - generic [ref=f4e318]: https://travellerkaka.com › madurai-airport-to-rameshwaram-travel-guide
+          - heading [level=2] [ref=f4e321]:
+            - 'link "Madurai Airport to Rameshwaram: Distance & Travel Options" [ref=f4e322] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=914c888090140532b1d3697734b0a589623f21160cef1c1227936998133b4396JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmF2ZWxsZXJrYWthLmNvbS9tYWR1cmFpLWFpcnBvcnQtdG8tcmFtZXNod2FyYW0tdHJhdmVsLWd1aWRlLw&ntb=1
+          - paragraph [ref=f4e324]:
+            - generic [ref=f4e325]: 22 Jul 2026 · The drive typically takes between 3.5 to 4.5 hours, depending on the season and traffic near the coastal bridge. While …
+        - listitem [ref=f4e326]:
+          - generic [ref=f4e328]:
+            - heading "People also ask" [level=2] [ref=f4e329]
+            - list [ref=f4e334]:
+              - listitem [ref=f4e335]:
+                - heading [level=3] [ref=f4e336]:
+                  - button "How far is Madurai from Rameshwaram?" [ref=f4e337] [cursor=pointer]
+              - listitem [ref=f4e339]:
+                - heading [level=3] [ref=f4e340]:
+                  - button "How long is the journey from Madurai to Rameswaram?" [ref=f4e341] [cursor=pointer]
+              - listitem [ref=f4e343]:
+                - heading [level=3] [ref=f4e344]:
+                  - button "Is there a direct bus from Sellur to Rameswaram?" [ref=f4e345] [cursor=pointer]
+              - listitem [ref=f4e347]:
+                - heading [level=3] [ref=f4e348]:
+                  - button "How to get from Sellur to Rameshwaram?" [ref=f4e349] [cursor=pointer]
+        - listitem [ref=f4e352]:
+          - generic [ref=f4e353]:
+            - heading [level=2] [ref=f4e354]:
+              - generic [ref=f4e355]:
+                - text: Deep dive into
+                - strong [ref=f4e356]: Madurai to Rameswaram distance km driving time NH87
+            - list [ref=f4e357]:
+              - listitem [ref=f4e358]:
+                - link [ref=f4e360] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=58c6533566397a067801506fd5a1123200c119563023f81012f44bdd23170ac7JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rUmFtZXN3YXJhbSt0cmFpbit0aW1lJkZPUk09UVNSRTE&ntb=1
+                  - generic [ref=f4e362]:
+                    - text: Madurai to Rameswaram
+                    - strong [ref=f4e363]: train
+                    - text: time
+              - listitem [ref=f4e364]:
+                - link [ref=f4e366] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2c7b26636c1f0934c57888207aa80907e9f5bdd991a50741ba7351bdb76f0179JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rcmFtZXNod2FyYW0rZGlzdGFuY2UrdHJhaW4mRk9STT1RU1JFMg&ntb=1
+                  - generic [ref=f4e368]:
+                    - text: Madurai to
+                    - strong [ref=f4e369]: rameshwaram
+                    - text: distance
+                    - strong [ref=f4e370]: train
+              - listitem [ref=f4e371]:
+                - link [ref=f4e373] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=423fa5e8434ea6f9d916db95b0ba42b3c284b3590ce55805bc2badffe813c62fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rUmFtZXN3YXJhbStieSt0cmFpbiZGT1JNPVFTUkUz&ntb=1
+                  - generic [ref=f4e375]:
+                    - text: Madurai to Rameswaram
+                    - strong [ref=f4e376]: by train
+              - listitem [ref=f4e377]:
+                - link [ref=f4e379] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5d3409e20f2c6795ef8623b9b030ab995baef51b81824f039fa29e018ac2a94cJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rcmFtZXNod2FyYW0rcm91dGUrbWFwJkZPUk09UVNSRTQ&ntb=1
+                  - generic [ref=f4e381]:
+                    - text: Madurai to
+                    - strong [ref=f4e382]: rameshwaram route map
+              - listitem [ref=f4e383]:
+                - link [ref=f4e385] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=a759b3b035c839f56d69fb1b6be6e40e5a2421f58add7f3da196c4ed434a40ccJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rcmFtZXNod2FyYW0rYnkrcm9hZCZGT1JNPVFTUkU1&ntb=1
+                  - generic [ref=f4e387]:
+                    - text: Madurai to
+                    - strong [ref=f4e388]: rameshwaram by road
+              - listitem [ref=f4e389]:
+                - link [ref=f4e391] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=638193a4a377047357a73f19044169a174519696ffbd5afe890a8f19227e5843JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rcmFtZXNod2FyYW0rYnkrY2FyJkZPUk09UVNSRTY&ntb=1
+                  - generic [ref=f4e393]:
+                    - text: Madurai to
+                    - strong [ref=f4e394]: rameshwaram by car
+              - listitem [ref=f4e395]:
+                - link [ref=f4e397] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=a5e0fd0e9d8e52b3c79f70dd3c93035956559945fab13de9b8ae94ea4a53c9aeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrYWlycG9ydCt0bytyYW1lc2h3YXJhbStkaXN0YW5jZSZGT1JNPVFTUkU3&ntb=1
+                  - generic [ref=f4e399]:
+                    - text: Madurai
+                    - strong [ref=f4e400]: airport
+                    - text: to
+                    - strong [ref=f4e401]: rameshwaram
+                    - text: distance
+              - listitem [ref=f4e402]:
+                - link [ref=f4e404] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b579ed0c52ffb34d1e1967275a243fe7730b463247b3561cd8cca5d39f5899eaJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU1hZHVyYWkrdG8rUmFtZXN3YXJhbStyb3V0ZSZGT1JNPVFTUkU4&ntb=1
+                  - generic [ref=f4e406]:
+                    - text: Madurai to Rameswaram
+                    - strong [ref=f4e407]: route
+        - listitem [ref=f4e408]:
+          - link "Some results have been removed" [ref=f4e411] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=18e1d1212ce11b7629beb08460ae2b384e793d5ea23a9084277056c57c93a8e3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=f4e412]:
+          - navigation "More results for Madurai to Rameswaram distance km driving time NH87":
+            - list:
+              - listitem [ref=f4e413]:
+                - generic "Page 1" [ref=f4e415]: "1"
+              - listitem [ref=f4e416]:
+                - link "Page 2" [ref=f4e418] [cursor=pointer]:
+                  - /url: /search?q=Madurai+to+Rameswaram+distance+km+driving+time+NH87&FPIG=FF46E908946148D1A655FB8F2B8DA5F7&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=f4e419]:
+                - link "Page 3" [ref=f4e421] [cursor=pointer]:
+                  - /url: /search?q=Madurai+to+Rameswaram+distance+km+driving+time+NH87&FPIG=FF46E908946148D1A655FB8F2B8DA5F7&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=f4e422]:
+                - link "Next page" [ref=f4e424] [cursor=pointer]:
+                  - /url: /search?q=Madurai+to+Rameswaram+distance+km+driving+time+NH87&FPIG=FF46E908946148D1A655FB8F2B8DA5F7&first=11&FORM=PORE
+    - complementary "Additional Results"
+  - contentinfo [ref=f4e425]:
+    - generic [ref=f4e426]:
+      - list:
+        - listitem [ref=f4e427]:
+          - link "Privacy" [ref=f4e429] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=69ddaeaff1186233b5d68c60caef9f620701db7ef96511716ce7a706a2139690JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f4e430]:
+          - generic [ref=f4e431]:
+            - link "Terms" [ref=f4e432] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=1ada26cda4e594f0f4160bfa4582ebcc7d488cb9d0ae3404bea371d69eb044acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+            - generic [ref=f4e433]: New

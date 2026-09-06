@@ -1,0 +1,286 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - button "Skip to content" [ref=f6e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f6e6] [cursor=pointer]
+    - generic [ref=f6e9]:
+      - link [ref=f6e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f6e11]
+      - search [ref=f6e12]:
+        - button "Search" [ref=f6e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f6e16]: Pamban road bridge status 2026 new bridge inaugurated traffic
+        - generic [ref=f6e17] [cursor=pointer]
+        - button "Search using an image" [ref=f6e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f6e24]:
+      - button "Microsoft Rewards" [ref=f6e25] [cursor=pointer]:
+        - generic [ref=f6e26]: Rewards
+      - link "Sign in" [ref=f6e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f6e44]:
+      - list [ref=f6e45]:
+        - listitem [ref=f6e46]:
+          - link "All" [ref=f6e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f6e48]:
+          - link "Search" [ref=f6e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=Pamban+road+bridge+status+2026+new+bridge+inaugurated+traffic&FORM=CSSCOP
+        - listitem [ref=f6e52]:
+          - link "Videos" [ref=f6e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=fdd96516e0d8e19cd47fb80703ac927cf333edb9f09b6cd3c7af3c85bad13e62JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9zZWFyY2g_cT1QYW1iYW4rcm9hZCticmlkZ2Urc3RhdHVzKzIwMjYrbmV3K2JyaWRnZStpbmF1Z3VyYXRlZCt0cmFmZmljJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=f6e54]:
+          - link "Images" [ref=f6e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=569fd99df1c9ed204c51f63149409ac65ad2dd2677583f67d088d07b549a4747JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2ltYWdlcy9zZWFyY2g_cT1QYW1iYW4rcm9hZCticmlkZ2Urc3RhdHVzKzIwMjYrbmV3K2JyaWRnZStpbmF1Z3VyYXRlZCt0cmFmZmljJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=f6e56]:
+          - link "Maps" [ref=f6e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=bc4ac8213fbe915f56023853af718813bed3fea013bb93a360dd5a6eb9296c36JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_cT1QYW1iYW4rcm9hZCticmlkZ2Urc3RhdHVzKzIwMjYrbmV3K2JyaWRnZStpbmF1Z3VyYXRlZCt0cmFmZmljJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=f6e58]:
+          - link "News" [ref=f6e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e66614cf0a74e0c40cd0af51c3aad876dc6bf567d18dfd56fabd5fa4062c8c62JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L25ld3Mvc2VhcmNoP3E9UGFtYmFuK3JvYWQrYnJpZGdlK3N0YXR1cysyMDI2K25ldyticmlkZ2UraW5hdWd1cmF0ZWQrdHJhZmZpYyZGT1JNPUhEUlNDNw&ntb=1
+        - listitem [ref=f6e60]:
+          - link "Copilot" [ref=f6e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3c153dbf1a3d3fc6164e231de427fda13a31a2aef20a255a98d757d9c5cc04e9JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2NoYXQ_cHJvbXB0PVBhbWJhbityb2FkK2JyaWRnZStzdGF0dXMrMjAyNituZXcrYnJpZGdlK2luYXVndXJhdGVkK3RyYWZmaWMmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+  - generic [ref=f6e62]:
+    - main "Search Results" [ref=f6e63]:
+      - generic [ref=f6e65]:
+        - generic [aria-hidden] [ref=f6e66]:
+          - generic [ref=f6e67] [cursor=pointer]
+          - generic [ref=f6e70] [cursor=pointer]
+          - generic [ref=f6e73] [cursor=pointer]
+        - text: About 12,600 results
+      - list [ref=f6e76]:
+        - listitem [ref=f6e77]:
+          - generic [ref=f6e82]:
+            - link "Larger map" [ref=f6e89] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=17e6ad2ac69a3822f51760f58e774921713138239af6a48ae7f6c7e4f41208d4JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHMvdHJhZmZpYz8mY3A9OS4yODN-NzkuMTk5OTk3Jmx2bD0xMiZtZXBpPTYxfn5FbWJlZGRlZH5MYXJnZU1hcExpbmsmdHk9OCZ0cmZjPTEmdj0yJnNWPTEmbWVwaT02MX5-RW1iZWRkZWR-TGFyZ2VNYXBMaW5rJkZPUk09TUlSRQ&ntb=1
+            - heading [level=2] [ref=f6e95]:
+              - link "Current traffic for Pamban, Tamil Nadu" [ref=f6e96] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=1304d7dd1cb337e293fdb9f83cd0e86639652f380b1e432cae5fe59e2482ea79JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHMvdHJhZmZpYz8mY3A9OS4yODN-NzkuMTk5OTk3Jmx2bD0xMiZtZXBpPTYxfn5FbWJlZGRlZH5MYXJnZU1hcExpbmsmdHk9OCZ0cmZjPTEmdj0yJnNWPTEmbWVwaT02MX5-RW1iZWRkZWR-TGFyZ2VNYXBMaW5rJkZPUk09TUlSRSZxcHZ0PVBhbWJhbityb2FkK2JyaWRnZStzdGF0dXMrMjAyNituZXcrYnJpZGdlK2luYXVndXJhdGVkK3RyYWZmaWM&ntb=1
+        - listitem [ref=f6e97]:
+          - link "travellerkaka.com" [ref=f6e99] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=792abf1e2a4ac06f467b10fdcfc0089820bd2018e3290917a1b173391db8d72bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmF2ZWxsZXJrYWthLmNvbS9uZXctcGFtYmFuLWJyaWRnZS1ndWlkZS0yMDI2Lw&ntb=1
+            - generic [ref=f6e104]:
+              - generic [ref=f6e105]: travellerkaka.com
+              - generic [ref=f6e106]: https://travellerkaka.com
+          - heading [level=2] [ref=f6e109]:
+            - 'link "New Pamban Bridge 2026: Timings, Facts & Best Photo Spots" [ref=f6e110] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=792abf1e2a4ac06f467b10fdcfc0089820bd2018e3290917a1b173391db8d72bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmF2ZWxsZXJrYWthLmNvbS9uZXctcGFtYmFuLWJyaWRnZS1ndWlkZS0yMDI2Lw&ntb=1
+          - paragraph [ref=f6e112]: 7 Jul 2026 · Discover the ultimate guide to the New Pamban Bridge. Learn about timings, the best photo spots, travel tips, and safety …
+        - listitem [ref=f6e113]:
+          - link "hellorail.in" [ref=f6e115] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9adddb44503eabc1f407bd430673959b18998dfc0ab338c2ba50d4ca87860dc1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9oZWxsb3JhaWwuaW4vbmV3LXBhbWJhbi1yYWlsLWJyaWRnZS1pbmRpYS1maXJzdC12ZXJ0aWNhbC1saWZ0LWJyaWRnZS0yLw&ntb=1
+            - generic [ref=f6e120]:
+              - generic [ref=f6e121]: hellorail.in
+              - generic [ref=f6e122]: https://hellorail.in
+          - heading [level=2] [ref=f6e125]:
+            - 'link "New Pamban Rail Bridge: India’s first vertical-lift sea bridge now ..." [ref=f6e126] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=9adddb44503eabc1f407bd430673959b18998dfc0ab338c2ba50d4ca87860dc1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9oZWxsb3JhaWwuaW4vbmV3LXBhbWJhbi1yYWlsLWJyaWRnZS1pbmRpYS1maXJzdC12ZXJ0aWNhbC1saWZ0LWJyaWRnZS0yLw&ntb=1
+          - paragraph [ref=f6e128]: 20 Jun 2026 · The New Pamban Rail Bridge is now open for traffic, connecting Mandapam on the mainland to Rameswaram on …
+        - listitem [ref=f6e129]:
+          - generic [ref=f6e131]:
+            - heading [level=2] [ref=f6e133]:
+              - link "Videos of Pamban Road Bridge Status 2026 New Bridge Inaugurated …" [ref=f6e134] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=d6a7ea3f136bb16370367ffe4c7989b5402c604df0af4d5a30c4d34e264501b3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9zZWFyY2g_cT1QYW1iYW4rcm9hZCticmlkZ2Urc3RhdHVzKzIwMjYrbmV3K2JyaWRnZStpbmF1Z3VyYXRlZCt0cmFmZmljJnFwdnQ9UGFtYmFuK3JvYWQrYnJpZGdlK3N0YXR1cysyMDI2K25ldyticmlkZ2UraW5hdWd1cmF0ZWQrdHJhZmZpYyZGT1JNPVZEUkU&ntb=1
+            - generic [ref=f6e139]: bing.com › videos
+            - generic [ref=f6e143]:
+              - 'link "World-Class, Smart & Future-Ready – New Pamban Bridge, India’s Engineering Marvel!from YouTube · Duration: 3 minutes51 seconds · 137.4K views · uploaded on 6 Apr 2025 · uploaded by Narendra Modi · Click to play. · On Ram Navami, PM Modi dedicates India’s first vertical lift railway sea bridge, the new Pamban Bridge, to the nation. Blending heritage with high-tech, it connects Rameswaram to the mainland, boosting pilgrimage, tourism, and progress. A proud symbol of India’s unstoppable development journey. #pambanbridge #rameshwaram #pmmodi To ..." [ref=f6e146] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=94b66042c0c4bc59bdfbc7428fc43c362447418fc6486a1ba7a65fe7db6b6904JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9UGFtYmFuK3JvYWQrYnJpZGdlK3N0YXR1cysyMDI2K25ldyticmlkZ2UraW5hdWd1cmF0ZWQrdHJhZmZpYyZtaWQ9ODAxREVBMTc5ODg2OTA5MDk5MDI4MDFERUExNzk4ODY5MDkwOTkwMiZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQzFORjcxRXdQNDFWZGpBVTFpWGRMa3cmbWNpZD03RjNEQUZEM0FBNUI0M0Q1QTIzOUYwRkY0NEFDNUREMSZGT1JNPVZJUkU&ntb=1
+                - generic [ref=f6e147]:
+                  - generic [ref=f6e148]: 3:51
+                  - generic [ref=f6e157]:
+                    - generic "World-Class, Smart & Future-Ready – New Pamban Bridge, India’s Engineering Marvel!" [ref=f6e158]:
+                      - text: World-Class, Smart & Future-Ready –
+                      - strong [ref=f6e159]: New
+                      - strong [ref=f6e160]: Pamban
+                      - strong [ref=f6e161]: Bridge
+                      - text: ", India’s Engineering Marvel!"
+                    - generic [ref=f6e162]:
+                      - generic [ref=f6e163]:
+                        - img "Video source site" [ref=f6e164]
+                        - text: YouTube · Narendra Modi
+                      - generic [ref=f6e165]: 137.4K views · 6 Apr 2025
+              - 'link "Pamban Bridge Inauguration: Mesmerizing View of India’s First Vertical Lift Bridge | PM Modifrom YouTube · Duration: 1 minutes42 seconds · 1.2K views · uploaded on 6 Apr 2025 · uploaded by DNAIndiaNews · Click to play. · Pamban Bridge Inauguration: Mesmerizing View of India’s First Vertical Lift Bridge | PM Modi PM Modi inaugurates new Pamban Rail Bridge connecting Rameswaram to mainland India. The bridge replaces the 110-year-old structure, featuring a 63-meter-long section that lifts to allow ship movement. CM M.K. Stalin informed PM Modi of his inability ..." [ref=f6e168] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=79c75fd2d526bff66ed867dabbbb6731c462e6e7bbba2b1a74629c9092ac1d24JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9UGFtYmFuK3JvYWQrYnJpZGdlK3N0YXR1cysyMDI2K25ldyticmlkZ2UraW5hdWd1cmF0ZWQrdHJhZmZpYyZtaWQ9RkNEREIzODU3NDQ2MDE3M0UxREJGQ0REQjM4NTc0NDYwMTczRTFEQiZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ0lSQVlGYkptclAtLWp5ckM5TUFJV1EmbWNpZD03RjNEQUZEM0FBNUI0M0Q1QTIzOUYwRkY0NEFDNUREMSZGT1JNPVZJUkU&ntb=1
+                - generic [ref=f6e169]:
+                  - generic [ref=f6e170]: 1:42
+                  - generic [ref=f6e179]:
+                    - 'generic "Pamban Bridge Inauguration: Mesmerizing View of India’s First Vertical Lift Bridge | PM Modi" [ref=f6e180]':
+                      - strong [ref=f6e181]: Pamban
+                      - strong [ref=f6e182]: Bridge
+                      - text: "Inauguration: Mesmerizing View of India’s First Vertical Lift"
+                      - strong [ref=f6e183]: Bridge
+                      - text: "| PM Modi"
+                    - generic [ref=f6e184]:
+                      - generic [ref=f6e185]:
+                        - img "Video source site" [ref=f6e186]
+                        - text: YouTube · DNAIndiaNews
+                      - generic [ref=f6e187]: 1.2K views · 6 Apr 2025
+        - listitem [ref=f6e188]:
+          - link "Wikipedia" [ref=f6e190] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e36677c79936a92fcb44e073a2a28732bbe497f84cb92cfd478981aa0704b5a8JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTmV3X1BhbWJhbl9CcmlkZ2U&ntb=1
+            - generic [ref=f6e195]:
+              - generic [ref=f6e196]: Wikipedia
+              - generic [ref=f6e197]: https://en.wikipedia.org › wiki › New_Pamban_Bridge
+          - heading [level=2] [ref=f6e200]:
+            - link "New Pamban Bridge - Wikipedia" [ref=f6e201] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=e36677c79936a92fcb44e073a2a28732bbe497f84cb92cfd478981aa0704b5a8JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTmV3X1BhbWJhbl9CcmlkZ2U&ntb=1
+          - generic [ref=f6e204]:
+            - generic [ref=f6e205]:
+              - tablist [ref=f6e208]:
+                - tab "Overview" [ref=f6e209] [cursor=pointer]
+                - tab "Planning and construction" [selected] [ref=f6e210]
+                - tab "Background" [ref=f6e211] [cursor=pointer]
+                - tab "Design" [ref=f6e212] [cursor=pointer]
+              - tabpanel "Planning and construction" [ref=f6e214]:
+                - paragraph [ref=f6e219]:
+                  - text: In 2020, Government of India announced that a new railway bridge will be constructed near the old Pamban Bridge at a cost of ₹5 billion (US$59 million). The construction contract was awarded to
+                  - link "Rail Vikas Nigam Limited" [ref=f6e220] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=26b113b43f0a035608f04f52c13347b6065adcda4fc3c25a731b388365bf40fdJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVJhaWwlMjBWaWthcyUyME5pZ2FtJTIwTGltaXRlZCUyMHdpa2lwZWRpYSZmb3JtPVdJS0lSRQ&ntb=1
+                  - text: . The foundation stone for the new bridge was laid by
+                  - link "prime minister" [ref=f6e221] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=05bf12586302c198f8a6d9307222fe4863e2a5e3addef7fef311b4b9c933129cJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPVByaW1lJTIwTWluaXN0ZXIlMjBvZiUyMEluZGlhJTIwd2lraXBlZGlhJmZvcm09V0lLSVJF&ntb=1
+                  - link "Narendra Modi" [ref=f6e222] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=937893c61dfd39e57d5cb95fdcc115799624137ef53d3860d61855137f24cea4JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPU5hcmVuZHJhJTIwTW9kaSUyMHdpa2lwZWRpYSZmb3JtPVdJS0lSRQ&ntb=1
+                  - text: in November 2019 and the construction commenced in February 2020.
+            - generic [ref=f6e223]:
+              - link "Wikipedia" [ref=f6e224] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e36677c79936a92fcb44e073a2a28732bbe497f84cb92cfd478981aa0704b5a8JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTmV3X1BhbWJhbl9CcmlkZ2U&ntb=1
+              - generic [ref=f6e225]:
+                - text: · Text under
+                - link "CC-BY-SA licence" [ref=f6e226] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e5e3fd5ac9434624641cc0ec957488e234a598afbb16049660fd43408218b5eeJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnktc2EvMy4wLw&ntb=1
+        - listitem [ref=f6e227]:
+          - link "Press Information Bureau" [ref=f6e229] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0314ea2d9df507d397b0f50901576f0d2077e8590898c90ec2046f6f4f38d720JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzcmVsZWFzZXNoYXJlLmFzcHg_UFJJRD0yMTE4ODk1&ntb=1
+            - generic [ref=f6e234]:
+              - generic [ref=f6e235]: Press Information Bureau
+              - generic [ref=f6e236]: https://pib.gov.in › Pressreleaseshare.aspx
+          - heading [level=2] [ref=f6e239]:
+            - 'link "Bridging Progress: The Rise of the New Pamban Bridge" [ref=f6e240] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=0314ea2d9df507d397b0f50901576f0d2077e8590898c90ec2046f6f4f38d720JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzcmVsZWFzZXNoYXJlLmFzcHg_UFJJRD0yMTE4ODk1&ntb=1
+          - paragraph [ref=f6e242]: Prime Minister Shri Narendra Modi will inaugurate the New Pamban Bridge during his visit to Tamil Nadu on April 6, on the …
+        - listitem [ref=f6e243]:
+          - generic [ref=f6e244]:
+            - link "Explore this image" [ref=f6e247] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=+VeSl4/7&id=483A88190A6D38C1B5F8E6D43A993551B79C9BBF&thid=OIP.-VeSl4_7vNfMMJL40mbaCQAAAA&mediaurl=https://static.pib.gov.in/WriteReadData/userfiles/image/image003FGBW.png&q=Pamban+road+bridge+status+2026+new+bridge+inaugurated+traffic&ck=A1B05FB36D091223453F2A9312D37E14&idpp=rc&expw=387&exph=479&form=rc2idp
+            - generic [ref=f6e249]:
+              - link "Press Information Bureau" [ref=f6e251] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e02839edc93fce75230a018d48b545cae0235564338a90c938e56122eed05384JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzUmVsZWFzZVBhZ2UuYXNweD9QUklEPTIxMTg4OTU&ntb=1
+                - generic [ref=f6e256]:
+                  - generic [ref=f6e257]: Press Information Bureau
+                  - generic [ref=f6e258]: https://pib.gov.in › PressReleasePage.aspx
+              - heading [level=2] [ref=f6e261]:
+                - 'link "Bridging Progress: The Rise of the New Pamban Bridge" [ref=f6e262] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=e02839edc93fce75230a018d48b545cae0235564338a90c938e56122eed05384JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9waWIuZ292LmluL1ByZXNzUmVsZWFzZVBhZ2UuYXNweD9QUklEPTIxMTg4OTU&ntb=1
+              - paragraph [ref=f6e263]: 4 Apr 2025 · Prime Minister Shri Narendra Modi will inaugurate the New Pamban Bridge during his visit to …
+        - listitem [ref=f6e265]:
+          - link "Deccan Chronicle" [ref=f6e267] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=406b00fd2c1f3b80081c36344ba82ac9994a4f7ec1736b2892ad8d0122cdd956JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGVjY2FuY2hyb25pY2xlLmNvbS9uYXRpb24vMTA4LXllYXItb2xkLWJyaXRpc2gtZXJhLXBhbWJhbi1icmlkZ2Utb3BlbnMtZm9yLXRoZS1sYXN0LXRpbWUtMTkzMTc4MQ&ntb=1
+            - generic [ref=f6e272]:
+              - generic [ref=f6e273]: Deccan Chronicle
+              - generic [ref=f6e274]: https://www.deccanchronicle.com › nation
+          - heading "British-era Pamban Bridge Opens For The Last Time" [level=2] [ref=f6e277]:
+            - link "British-era Pamban Bridge Opens For The Last Time":
+              - /url: https://www.bing.com/ck/a?!&&p=406b00fd2c1f3b80081c36344ba82ac9994a4f7ec1736b2892ad8d0122cdd956JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZGVjY2FuY2hyb25pY2xlLmNvbS9uYXRpb24vMTA4LXllYXItb2xkLWJyaXRpc2gtZXJhLXBhbWJhbi1icmlkZ2Utb3BlbnMtZm9yLXRoZS1sYXN0LXRpbWUtMTkzMTc4MQ&ntb=1
+          - paragraph [ref=f6e279]: "21 Jan 2026 · Ramanathapuram: The historic Pamban railway lift bridge over the Pamban sea in Tamil Nadu was reopened on …"
+        - listitem [ref=f6e280]:
+          - link "Public" [ref=f6e282] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1aed1f2aad4c36e375ddbe24001e9db143d21d8eac8657b4f45334356d72d72bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucHVibGljbm93LmNvbS92aWV3LzM0MjM4NUZFOURCNjkyMkMxODUwMDlGRkQ1OTJEREYzQkVCNUUzQkU&ntb=1
+            - generic [ref=f6e287]:
+              - generic [ref=f6e288]: Public
+              - generic [ref=f6e289]: https://www.publicnow.com › view
+          - heading "Ministry of Railways of the Republic of India (via Public) / Bridging ..." [level=2] [ref=f6e292]:
+            - link "Ministry of Railways of the Republic of India (via Public) / Bridging ...":
+              - /url: https://www.bing.com/ck/a?!&&p=1aed1f2aad4c36e375ddbe24001e9db143d21d8eac8657b4f45334356d72d72bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cucHVibGljbm93LmNvbS92aWV3LzM0MjM4NUZFOURCNjkyMkMxODUwMDlGRkQ1OTJEREYzQkVCNUUzQkU&ntb=1
+          - paragraph [ref=f6e294]: Prime Minister Shri Narendra Modi will inaugurate the New Pamban Bridge during this visit to Tamil Nadu on April 6, on the …
+        - listitem [ref=f6e295]:
+          - link "bengalurumetro.in" [ref=f6e297] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=502a8bee5859a9dd198b49221e2dd89c532810742ef7d846862366bb6325786fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9iZW5nYWx1cnVtZXRyby5pbi9uZXdzL3BhbWJhbi1icmlkZ2UtdmVydGljYWwtbGlmdC1zZWEtYnJpZGdlLWluZGlhLmh0bWw&ntb=1
+            - generic [ref=f6e302]:
+              - generic [ref=f6e303]: bengalurumetro.in
+              - generic [ref=f6e304]: https://bengalurumetro.in › news › pamban-bridge-vertical-lift-sea-bridge...
+          - 'heading "India''s Sea Bridge That Lifts: The New Pamban Replaces a 111-Year …" [level=2] [ref=f6e307]':
+            - 'link "India''s Sea Bridge That Lifts: The New Pamban Replaces a 111-Year …"':
+              - /url: https://www.bing.com/ck/a?!&&p=502a8bee5859a9dd198b49221e2dd89c532810742ef7d846862366bb6325786fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9iZW5nYWx1cnVtZXRyby5pbi9uZXdzL3BhbWJhbi1icmlkZ2UtdmVydGljYWwtbGlmdC1zZWEtYnJpZGdlLWluZGlhLmh0bWw&ntb=1
+          - paragraph [ref=f6e309]: As of January 2026, the colonial-era bridge has been approved for dismantling. The structure that survived a cyclone and seven …
+        - listitem [ref=f6e310]:
+          - link "News18" [ref=f6e312] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=81ddc56507448dbb535f56e5e538380042f1a6c5f27fb1c768265801006e4790JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubmV3czE4LmNvbS9pbmRpYS9wbS1tb2RpLWluYXVndXJhdGVzLXBhbWJhbi1icmlkZ2UtaGVyZXMtaG93LWl0LXdpbGwtbWFrZS1qb3VybmV5LXRvLXJhbWVzd2FyYW0tc21vb3RoZXItd3Mta2wtOTI4ODgyMS5odG1s&ntb=1
+            - generic [ref=f6e317]:
+              - generic [ref=f6e318]: News18
+              - generic [ref=f6e319]: https://www.news18.com › india › pm-modi-inaugurates-pamban-bridge-here…
+          - 'heading "PM Modi Inaugurates Pamban Bridge: How It Will Make Train" [level=2] [ref=f6e322]':
+            - 'link "PM Modi Inaugurates Pamban Bridge: How It Will Make Train"':
+              - /url: https://www.bing.com/ck/a?!&&p=81ddc56507448dbb535f56e5e538380042f1a6c5f27fb1c768265801006e4790JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubmV3czE4LmNvbS9pbmRpYS9wbS1tb2RpLWluYXVndXJhdGVzLXBhbWJhbi1icmlkZ2UtaGVyZXMtaG93LWl0LXdpbGwtbWFrZS1qb3VybmV5LXRvLXJhbWVzd2FyYW0tc21vb3RoZXItd3Mta2wtOTI4ODgyMS5odG1s&ntb=1
+          - paragraph [ref=f6e324]: 6 Apr 2025 · PM Modi opens the new Pamban Bridge, boosting Rameswaram connectivity with India's first vertical lift sea bridge for …
+        - listitem [ref=f6e325]:
+          - link "Drishti IAS" [ref=f6e327] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=518dc87f11c97022dffdd2013d43e7b3db4dd1ccab926b024dc717ddc27f79dcJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZHJpc2h0aWlhcy5jb20vZGFpbHktdXBkYXRlcy9kYWlseS1uZXdzLWFuYWx5c2lzL25ldy1wYW1iYW4tYnJpZGdl&ntb=1
+            - generic [ref=f6e332]:
+              - generic [ref=f6e333]: Drishti IAS
+              - generic [ref=f6e334]: https://www.drishtiias.com › ... › daily-news-analysis › new-pamban-bridge
+          - heading "New Pamban Bridge - दृष्टि आईएएस" [level=2] [ref=f6e337]:
+            - link "New Pamban Bridge - दृष्टि आईएएस":
+              - /url: https://www.bing.com/ck/a?!&&p=518dc87f11c97022dffdd2013d43e7b3db4dd1ccab926b024dc717ddc27f79dcJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cuZHJpc2h0aWlhcy5jb20vZGFpbHktdXBkYXRlcy9kYWlseS1uZXdzLWFuYWx5c2lzL25ldy1wYW1iYW4tYnJpZGdl&ntb=1
+          - paragraph [ref=f6e339]: 12 Apr 2025 · The Prime Minister inaugurated India’s first vertical lift railway sea bridge, the new Pamban Bridge, enhancing …
+        - listitem [ref=f6e340]:
+          - generic [ref=f6e342]:
+            - heading "People also ask" [level=2] [ref=f6e343]
+            - list [ref=f6e347]:
+              - listitem [ref=f6e348]:
+                - heading [level=3] [ref=f6e349]:
+                  - button "When will Modi inaugurate the new Pamban Bridge?" [ref=f6e350] [cursor=pointer]
+              - listitem [ref=f6e352]:
+                - heading [level=3] [ref=f6e353]:
+                  - button "Will new Pamban Bridge work be over by March 2023?" [ref=f6e354] [cursor=pointer]
+              - listitem [ref=f6e356]:
+                - heading [level=3] [ref=f6e357]:
+                  - button "What is the new Pamban Bridge?" [ref=f6e358] [cursor=pointer]
+              - listitem [ref=f6e360]:
+                - heading [level=3] [ref=f6e361]:
+                  - button "When did the Pamban Bridge close?" [ref=f6e362] [cursor=pointer]
+        - listitem [ref=f6e365]:
+          - generic [ref=f6e366]:
+            - heading [level=2] [ref=f6e367]:
+              - text: Deep dive into
+              - strong [ref=f6e368]: Pamban road bridge status 2026 new bridge inaugurate
+              - text: …
+            - list [ref=f6e369]:
+              - listitem [ref=f6e370]:
+                - link [ref=f6e371] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b5689d0a100179a35801f462cc7e3c2d25f3113d69349c0e1d2e58a9507544acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPXBhbWJhbiticmlkZ2UrV2lraXBlZGlhJkZPUk09UVNSRTE&ntb=1
+                  - generic [ref=f6e373]:
+                    - text: pamban bridge
+                    - strong [ref=f6e374]: wikipedia
+              - listitem [ref=f6e375]:
+                - link "new pamban bridge" [ref=f6e376] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=38edc1066d89edececab5696a98e665a0f4bc181a44e713e30c2c38d7815ac4dJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3NlYXJjaD9xPW5ldytwYW1iYW4rYnJpZGdlJkZPUk09UVNSRTI&ntb=1
+        - listitem [ref=f6e379]:
+          - link "Some results have been removed" [ref=f6e381] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=18e1d1212ce11b7629beb08460ae2b384e793d5ea23a9084277056c57c93a8e3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=f6e382]:
+          - navigation "More results for Pamban road bridge status 2026 new bridge inaugurated traffic":
+            - list:
+              - listitem [ref=f6e383]:
+                - generic "Page 1" [ref=f6e384]: "1"
+              - listitem [ref=f6e385]:
+                - link "Page 2" [ref=f6e386] [cursor=pointer]:
+                  - /url: /search?q=Pamban+road+bridge+status+2026+new+bridge+inaugurated+traffic&FPIG=7F3DAFD3AA5B43D5A239F0FF44AC5DD1&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=f6e387]:
+                - link "Page 3" [ref=f6e388] [cursor=pointer]:
+                  - /url: /search?q=Pamban+road+bridge+status+2026+new+bridge+inaugurated+traffic&FPIG=7F3DAFD3AA5B43D5A239F0FF44AC5DD1&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=f6e389]:
+                - link "Next page" [ref=f6e390] [cursor=pointer]:
+                  - /url: /search?q=Pamban+road+bridge+status+2026+new+bridge+inaugurated+traffic&FPIG=7F3DAFD3AA5B43D5A239F0FF44AC5DD1&first=11&FORM=PORE
+    - complementary "Additional Results"
+  - contentinfo [ref=f6e391]:
+    - generic [ref=f6e392]:
+      - list:
+        - listitem [ref=f6e393]:
+          - link "Privacy" [ref=f6e394] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=69ddaeaff1186233b5d68c60caef9f620701db7ef96511716ce7a706a2139690JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f6e395]:
+          - link "Terms" [ref=f6e396] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1ada26cda4e594f0f4160bfa4582ebcc7d488cb9d0ae3404bea371d69eb044acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+          - generic [ref=f6e397]: New

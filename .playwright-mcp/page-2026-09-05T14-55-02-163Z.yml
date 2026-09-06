@@ -1,0 +1,203 @@
+- generic [active] [ref=f9e1]:
+  - banner [ref=f9e2]:
+    - button "Skip to content" [ref=f9e3] [cursor=pointer]
+    - button "Accessibility Feedback" [ref=f9e6] [cursor=pointer]
+    - generic [ref=f9e9]:
+      - link [ref=f9e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=f9e11]
+      - search [ref=f9e12]:
+        - button "Search" [ref=f9e15] [cursor=pointer]
+        - searchbox "Enter your search here – Search suggestions will show as you type" [ref=f9e16]: Annai Indira Gandhi road bridge Pamban vehicle traffic status open
+        - generic [ref=f9e17] [cursor=pointer]
+        - button "Search using an image" [ref=f9e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=f9e24]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=f9e25] [cursor=pointer]:
+        - /url: javascript:void(0)
+    - navigation "Search Filter" [ref=f9e27]:
+      - list [ref=f9e28]:
+        - listitem [ref=f9e29]:
+          - link "All" [ref=f9e30] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=f9e31]:
+          - link "Search" [ref=f9e32] [cursor=pointer]:
+            - /url: /copilotsearch?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open&FORM=CSSCOP
+        - listitem [ref=f9e35]:
+          - link "Images" [ref=f9e36] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=de3e15099df2702f0ab927d08b5946a21fbe0066bc2bf77097c89904ba876275JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2ltYWdlcy9zZWFyY2g_cT1Bbm5haStJbmRpcmErR2FuZGhpK3JvYWQrYnJpZGdlK1BhbWJhbit2ZWhpY2xlK3RyYWZmaWMrc3RhdHVzK29wZW4mRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=f9e37]:
+          - link "Videos" [ref=f9e38] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b6cbde9a58792887b9354a88e484b347c4b9b238ec88cff64a79693deb6cf4d9JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Bbm5haStJbmRpcmErR2FuZGhpK3JvYWQrYnJpZGdlK1BhbWJhbit2ZWhpY2xlK3RyYWZmaWMrc3RhdHVzK29wZW4mRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=f9e39]:
+          - link "Maps" [ref=f9e40] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=62cefbc66e9efc42bfd64b82dc32fa5d08ac04c3ed1288f950e8d981061c6692JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHM_cT1Bbm5haStJbmRpcmErR2FuZGhpK3JvYWQrYnJpZGdlK1BhbWJhbit2ZWhpY2xlK3RyYWZmaWMrc3RhdHVzK29wZW4mRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=f9e41]:
+          - link "News" [ref=f9e42] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c7897b654ea1f1d364b8798bf8b55b0486d683d8a81fc409569252d4478eabe1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L25ld3Mvc2VhcmNoP3E9QW5uYWkrSW5kaXJhK0dhbmRoaStyb2FkK2JyaWRnZStQYW1iYW4rdmVoaWNsZSt0cmFmZmljK3N0YXR1cytvcGVuJkZPUk09SERSU0M3&ntb=1
+        - listitem [ref=f9e43]:
+          - link "Copilot" [ref=f9e44] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=412786bbe16db854ad5618e3ff6e136312a47496b9426b01d9b825fb14307216JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L2NoYXQ_cHJvbXB0PUFubmFpK0luZGlyYStHYW5kaGkrcm9hZCticmlkZ2UrUGFtYmFuK3ZlaGljbGUrdHJhZmZpYytzdGF0dXMrb3BlbiZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+  - generic [ref=f9e45]:
+    - main "Search Results" [ref=f9e46]:
+      - generic [ref=f9e48]:
+        - generic [aria-hidden] [ref=f9e49]:
+          - generic [ref=f9e50] [cursor=pointer]
+          - generic [ref=f9e53] [cursor=pointer]
+          - generic [ref=f9e56] [cursor=pointer]
+        - text: About 21 results
+      - list [ref=f9e59]:
+        - listitem [ref=f9e60]:
+          - link "trafficwatch.co.in" [ref=f9e62] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f30635849fe15056d3acc419711df4f89b4a7ab79b92bc962517034391b89efJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmFmZmljd2F0Y2guY28uaW4v&ntb=1
+            - generic [ref=f9e67]:
+              - generic [ref=f9e68]: trafficwatch.co.in
+              - generic [ref=f9e69]: https://trafficwatch.co.in
+          - heading [level=2] [ref=f9e72]:
+            - link "TrafficWatch - Real-Time Traffic Monitoring for Indian Roads" [ref=f9e73] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=8f30635849fe15056d3acc419711df4f89b4a7ab79b92bc962517034391b89efJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly90cmFmZmljd2F0Y2guY28uaW4v&ntb=1
+          - paragraph [ref=f9e75]: TrafficWatch monitors your daily commute routes in real-time, alerts you when traffic changes, and helps you find the best time to …
+        - listitem [ref=f9e76]:
+          - link "ViaMichelin" [ref=f9e78] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6700d970f3314049426773277d4a8f236325239467956764e27d6295fe1506f0JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudmlhbWljaGVsaW4uY29tL21hcHMvdHJhZmZpYy9pbmRpYS90YW1pbF9uYWR1L18vcGFtYmFuLQ&ntb=1
+            - generic [ref=f9e83]:
+              - generic [ref=f9e84]: ViaMichelin
+              - generic [ref=f9e85]: https://www.viamichelin.com › maps › traffic › india › tamil_nadu › pamban-
+          - heading [level=2] [ref=f9e88]:
+            - link "pamban- traffic news for today - real-time road traffic - ViaMichelin" [ref=f9e89] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=6700d970f3314049426773277d4a8f236325239467956764e27d6295fe1506f0JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudmlhbWljaGVsaW4uY29tL21hcHMvdHJhZmZpYy9pbmRpYS90YW1pbF9uYWR1L18vcGFtYmFuLQ&ntb=1
+          - paragraph [ref=f9e91]: What is the current traffic status in Pamban? ViaMichelin provides real-time traffic information for Pamban. Currently, we are counting …
+        - listitem [ref=f9e92]:
+          - link "Tamil Nadu Tourism" [ref=f9e94] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=d5289ae98580104fd2dac7a002154828f860ada2238d57e81259cbf14797f4d3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudGFtaWxuYWR1dG91cmlzbS50bi5nb3YuaW4vZGVzdGluYXRpb25zL2FubmFpLWluZGlyYS1nYW5kaGktcm9hZC1icmlkZ2U&ntb=1
+            - generic [ref=f9e99]:
+              - generic [ref=f9e100]: Tamil Nadu Tourism
+              - generic [ref=f9e101]: https://www.tamilnadutourism.tn.gov.in › ... › annai-indira-gandhi-road-bridge
+          - heading [level=2] [ref=f9e104]:
+            - link "Annai Indira Gandhi Road Bridge - Tamil Nadu Tourism" [ref=f9e105] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=d5289ae98580104fd2dac7a002154828f860ada2238d57e81259cbf14797f4d3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudGFtaWxuYWR1dG91cmlzbS50bi5nb3YuaW4vZGVzdGluYXRpb25zL2FubmFpLWluZGlyYS1nYW5kaGktcm9hZC1icmlkZ2U&ntb=1
+          - paragraph [ref=f9e107]: The Annai Indira Gandhi Road Bridge connects the National Highway (NH 49) with Rameswaram on the Pamban Island. This …
+        - listitem [ref=f9e108]:
+          - generic [ref=f9e113]:
+            - link "Larger map" [ref=f9e120] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=56d8dc408c862dbb3453d07b5cc9523b6538e52556521474dacca204c778204fJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHMvdHJhZmZpYz8mY3A9MTIuOTcxMjE5fjgwLjE4MjI0OCZsdmw9MTUmbWVwaT02MX5-RW1iZWRkZWR-TGFyZ2VNYXBMaW5rJnR5PTgmdHJmYz0xJnY9MiZzVj0xJm1lcGk9NjF-fkVtYmVkZGVkfkxhcmdlTWFwTGluayZGT1JNPU1JUkU&ntb=1
+            - heading [level=2] [ref=f9e126]:
+              - link "Current traffic for Annai Indira Gandhi Street, Tambaram, Tamil Nadu-600061" [ref=f9e127] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=949551b32f8b94ab5a9a1840c0c4b2a0760b028b18c8f4d437b9e2e3daa4d0a9JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1L21hcHMvdHJhZmZpYz8mY3A9MTIuOTcxMjE5fjgwLjE4MjI0OCZsdmw9MTUmbWVwaT02MX5-RW1iZWRkZWR-TGFyZ2VNYXBMaW5rJnR5PTgmdHJmYz0xJnY9MiZzVj0xJm1lcGk9NjF-fkVtYmVkZGVkfkxhcmdlTWFwTGluayZGT1JNPU1JUkUmcXB2dD1Bbm5haStJbmRpcmErR2FuZGhpK3JvYWQrYnJpZGdlK1BhbWJhbit2ZWhpY2xlK3RyYWZmaWMrc3RhdHVzK29wZW4&ntb=1
+        - listitem [ref=f9e128]:
+          - link "Rameshwaram Tourism 2023" [ref=f9e130] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=274dcc2f26732c816507c852cf071792a6c997db0dbf5971728eacf6ebcc829aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9yYW1lc2h3YXJhbXRvdXJpc20uY28uaW4vcGFtYmFuLWJyaWRnZS1hbm5haS1pbmRpcmEtZ2FuZGhpLXJvYWQtYnJpZGdlLXJhbWVzaHdhcmFt&ntb=1
+            - generic [ref=f9e135]:
+              - generic [ref=f9e136]: Rameshwaram Tourism 2023
+              - generic [ref=f9e137]: https://rameshwaramtourism.co.in › pamban-bridge-annai-indira-gandhi...
+          - heading [level=2] [ref=f9e140]:
+            - link "Pamban Bridge / Annai Indira Gandhi Road Bridge in Rameshwaram …" [ref=f9e141] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=274dcc2f26732c816507c852cf071792a6c997db0dbf5971728eacf6ebcc829aJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly9yYW1lc2h3YXJhbXRvdXJpc20uY28uaW4vcGFtYmFuLWJyaWRnZS1hbm5haS1pbmRpcmEtZ2FuZGhpLXJvYWQtYnJpZGdlLXJhbWVzaHdhcmFt&ntb=1
+          - generic [ref=f9e142]:
+            - paragraph [ref=f9e143]: 30 Dec 2025 · This road bridge is also known as Annai Indira Gandhi Road Bridge. Pamban Bridge is the second largest bridge in …
+            - generic [ref=f9e145]:
+              - list [ref=f9e146]:
+                - listitem [ref=f9e147]:
+                  - generic [ref=f9e148]:
+                    - text: 4/5
+                    - 'img "Star Rating: 4 out of 5." [ref=f9e149]'
+                    - text: (53)
+              - list
+        - listitem [ref=f9e155]:
+          - link "TripHobo" [ref=f9e157] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3b6279f428b3fb01fbbc4411720d7dc7c49ffd0a3189be07759ef2b163701f9dJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudHJpcGhvYm8uY29tL3BsYWNlcy9yYW1lc2h3YXJhbS1pbmRpYS9hbm5haS1pbmRpcmEtZ2FuZGhpLXJvYWQtYnJpZGdl&ntb=1
+            - generic [ref=f9e162]:
+              - generic [ref=f9e163]: TripHobo
+              - generic [ref=f9e164]: https://www.triphobo.com › ... › annai-indira-gandhi-road-bridge
+          - heading [level=2] [ref=f9e167]:
+            - link "Annai Indira Gandhi Road Bridge, Rameshwaram - TripHobo" [ref=f9e168] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=3b6279f428b3fb01fbbc4411720d7dc7c49ffd0a3189be07759ef2b163701f9dJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudHJpcGhvYm8uY29tL3BsYWNlcy9yYW1lc2h3YXJhbS1pbmRpYS9hbm5haS1pbmRpcmEtZ2FuZGhpLXJvYWQtYnJpZGdl&ntb=1
+          - paragraph [ref=f9e170]: Do you want to know the entry ticket price for Annai Indira Gandhi Road Bridge? Opening & closing timings, parking options, …
+        - listitem [ref=f9e171]:
+          - link "travelladda.com" [ref=f9e173] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=209075ae6235b57f54c93215f26465b7dc494ee39460ab63c47d2181d9fffb08JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudHJhdmVsbGFkZGEuY29tL3BsYWNlL2FubmFpLWluZGlyYS1nYW5kaGktcm9hZC1icmlkZ2UtMTA2MDI&ntb=1
+            - generic [ref=f9e178]:
+              - generic [ref=f9e179]: travelladda.com
+              - generic [ref=f9e180]: https://www.travelladda.com › place
+          - heading [level=2] [ref=f9e183]:
+            - link "Annai Indira Gandhi Road Bridge, Rameshwaram," [ref=f9e184] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=209075ae6235b57f54c93215f26465b7dc494ee39460ab63c47d2181d9fffb08JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudHJhdmVsbGFkZGEuY29tL3BsYWNlL2FubmFpLWluZGlyYS1nYW5kaGktcm9hZC1icmlkZ2UtMTA2MDI&ntb=1
+          - paragraph [ref=f9e186]: Annai Indira Gandhi Road Bridge, popularly known as the Pamban Bridge, is one of the most iconic landmarks of Rameswaram, …
+        - listitem [ref=f9e187]:
+          - link "The New Indian Express" [ref=f9e189] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4f16a64d64e6a1148440de942906f1f56aa81728d3b1e6937ae15a657b03f1a6JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubmV3aW5kaWFuZXhwcmVzcy5jb20vc3RhdGVzL3RhbWlsLW5hZHUvMjAyNi9KdWwvMTQvbmhhaS1mbG9hdHMtdGVuZGVyLXdvcnRoLXJzLTc0NzEtY3JvcmUtZm9yLXN0cmVuZ3RoZW5pbmctcGFtYmFuLXJvYWQtYnJpZGdl&ntb=1
+            - generic [ref=f9e194]:
+              - generic [ref=f9e195]: The New Indian Express
+              - generic [ref=f9e196]: https://www.newindianexpress.com › states › tamil-nadu › Jul › nhai...
+          - heading [level=2] [ref=f9e199]:
+            - link "NHAI floats tender worth Rs 74.71 crore for strengthening Pamban …" [ref=f9e200] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4f16a64d64e6a1148440de942906f1f56aa81728d3b1e6937ae15a657b03f1a6JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubmV3aW5kaWFuZXhwcmVzcy5jb20vc3RhdGVzL3RhbWlsLW5hZHUvMjAyNi9KdWwvMTQvbmhhaS1mbG9hdHMtdGVuZGVyLXdvcnRoLXJzLTc0NzEtY3JvcmUtZm9yLXN0cmVuZ3RoZW5pbmctcGFtYmFuLXJvYWQtYnJpZGdl&ntb=1
+          - paragraph [ref=f9e202]: 14 Jul 2026 · NHAI floats tender worth Rs 74.71 crore for strengthening Pamban road bridge. The project has been scheduled for …
+        - listitem [ref=f9e203]:
+          - link "megaproject.com" [ref=f9e205] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f0246ab64c21b9db3a0403cce1463c887faf55beea34953c1326ab99c74daf07JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubWVnYXByb2plY3QuY29tL25ld3Mvcm9hZGFuZGJyaWRnZS9uaGFpLWZsb2F0cy10ZW5kZXItZm9yLXN0cmVuZ3RoZW5pbmctcGFtYmFuLXJvYWQtYnJpZGdl&ntb=1
+            - generic [ref=f9e210]:
+              - generic [ref=f9e211]: megaproject.com
+              - generic [ref=f9e212]: https://www.megaproject.com › news › roadandbridge › nhai-floats-tender-for...
+          - heading "Nhai Floats Tender For Strengthening Pamban Road Bridge" [level=2] [ref=f9e215]:
+            - link "Nhai Floats Tender For Strengthening Pamban Road Bridge":
+              - /url: https://www.bing.com/ck/a?!&&p=f0246ab64c21b9db3a0403cce1463c887faf55beea34953c1326ab99c74daf07JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubWVnYXByb2plY3QuY29tL25ld3Mvcm9hZGFuZGJyaWRnZS9uaGFpLWZsb2F0cy10ZW5kZXItZm9yLXN0cmVuZ3RoZW5pbmctcGFtYmFuLXJvYWQtYnJpZGdl&ntb=1
+          - paragraph [ref=f9e217]: 21 Jul 2026 · Authorities expect that the strengthened bridge and upgraded safety measures will improve resilience and provide a …
+        - listitem [ref=f9e218]:
+          - link "myrameshwaram.in" [ref=f9e220] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b6d60c974b9b85cadb9cd7ca018ec5ada0437d72ebc5a3a92487f226f8fad67bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubXlyYW1lc2h3YXJhbS5pbi9pbmRpcmEtZ2FuZGhpLXJvYWQtYnJpZGdlLnBocA&ntb=1
+            - generic [ref=f9e225]:
+              - generic [ref=f9e226]: myrameshwaram.in
+              - generic [ref=f9e227]: https://www.myrameshwaram.in › indira-gandhi-road-bridge.php
+          - heading "A Spiritual Haven and Tourist Gem in Southern India | My …" [level=2] [ref=f9e230]:
+            - link "A Spiritual Haven and Tourist Gem in Southern India | My …":
+              - /url: https://www.bing.com/ck/a?!&&p=b6d60c974b9b85cadb9cd7ca018ec5ada0437d72ebc5a3a92487f226f8fad67bJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cubXlyYW1lc2h3YXJhbS5pbi9pbmRpcmEtZ2FuZGhpLXJvYWQtYnJpZGdlLnBocA&ntb=1
+          - paragraph [ref=f9e232]: The 2.34 km long Annai Indira Gandhi Road bridge, sometimes referred to as the Pamban bridge, is situated near the rail bridge. The …
+        - listitem [ref=f9e233]:
+          - link "Tripadvisor" [ref=f9e235] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f080c1446a3c2f222adf16a422e31ad4aa472adcdc946e2b0b0c6cad77167ef1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tL0F0dHJhY3Rpb25fUmV2aWV3LWczMDM4OTQtZDI3MjE4NTktUmV2aWV3cy1vcjU0MC1Bbm5haV9JbmRpcmFfR2FuZGhpX1JvYWRfQnJpZGdlLVJhbWVzd2FyYW1fUmFtYW5hdGhhcHVyYW1fRGlzdHJpY3RfVGFtaWxfTmEuaHRtbA&ntb=1
+            - generic [ref=f9e240]:
+              - generic [ref=f9e241]: Tripadvisor
+              - generic [ref=f9e242]: https://www.tripadvisor.com
+          - heading "Annai Indira Gandhi Road Bridge - Tripadvisor" [level=2] [ref=f9e245]:
+            - link "Annai Indira Gandhi Road Bridge - Tripadvisor":
+              - /url: https://www.bing.com/ck/a?!&&p=f080c1446a3c2f222adf16a422e31ad4aa472adcdc946e2b0b0c6cad77167ef1JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tL0F0dHJhY3Rpb25fUmV2aWV3LWczMDM4OTQtZDI3MjE4NTktUmV2aWV3cy1vcjU0MC1Bbm5haV9JbmRpcmFfR2FuZGhpX1JvYWRfQnJpZGdlLVJhbWVzd2FyYW1fUmFtYW5hdGhhcHVyYW1fRGlzdHJpY3RfVGFtaWxfTmEuaHRtbA&ntb=1
+          - paragraph [ref=f9e247]: To reach Rameswaram, you would either take the rail bridge or the road bridge over the sea, connecting the main land with the …
+        - listitem [ref=f9e248]:
+          - generic [ref=f9e250]:
+            - heading "People also ask" [level=2] [ref=f9e251]
+            - list [ref=f9e255]:
+              - listitem [ref=f9e256]:
+                - heading [level=3] [ref=f9e257]:
+                  - button "What is Annai Indira Gandhi Road Bridge?" [ref=f9e258] [cursor=pointer]
+              - listitem [ref=f9e260]:
+                - heading [level=3] [ref=f9e261]:
+                  - button "Which is the longest rail bridge in India?" [ref=f9e262] [cursor=pointer]
+              - listitem [ref=f9e264]:
+                - heading [level=3] [ref=f9e265]:
+                  - button "How to visit Pamban Bridge?" [ref=f9e266] [cursor=pointer]
+              - listitem [ref=f9e268]:
+                - heading [level=3] [ref=f9e269]:
+                  - button "Why should you visit Pamban Bridge in Rameshwaram?" [ref=f9e270] [cursor=pointer]
+        - listitem [ref=f9e273]:
+          - link "Some results have been removed" [ref=f9e275] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=18e1d1212ce11b7629beb08460ae2b384e793d5ea23a9084277056c57c93a8e3JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=f9e276]:
+          - navigation "More results for Annai Indira Gandhi road bridge Pamban vehicle traffic status open":
+            - list:
+              - listitem [ref=f9e277]:
+                - generic "Page 1" [ref=f9e278]: "1"
+              - listitem [ref=f9e279]:
+                - link "Next page" [ref=f9e280] [cursor=pointer]:
+                  - /url: /search?q=Annai+Indira+Gandhi+road+bridge+Pamban+vehicle+traffic+status+open&FPIG=30644F5C1E8D47FEB12EDF1595A2861F&first=11&FORM=PORE
+    - complementary "Additional Results"
+  - contentinfo [ref=f9e281]:
+    - generic [ref=f9e282]:
+      - list:
+        - listitem [ref=f9e283]:
+          - link "Privacy" [ref=f9e284] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=69ddaeaff1186233b5d68c60caef9f620701db7ef96511716ce7a706a2139690JmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=f9e285]:
+          - link "Terms" [ref=f9e286] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1ada26cda4e594f0f4160bfa4582ebcc7d488cb9d0ae3404bea371d69eb044acJmltdHM9MTc4ODU2NjQwMA&ptn=3&ver=2&hsh=4&fclid=21b63c3e-46d0-6b29-257d-2bf5472a6a81&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
+          - generic [ref=f9e287]: New
