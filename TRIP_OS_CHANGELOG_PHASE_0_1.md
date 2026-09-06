@@ -96,3 +96,42 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
   return from Rameswaram; remains RETURN_WAYPOINT, degrades to
   drive-through only under hard deadline pressure (§2.4). No architecture
   change.
+
+## Slices 4–6 verified baseline (2026-09-06, pre-departure build)
+
+- HEAD range: `f56c84c` (slice 4 core) → `cd00e11` (slices 5–6 core) →
+  `3735248` (delay-horizon fix) → `2ad8461` (web UI live shell).
+  Workspace tests at close: **96/96 PASS** (11 files); build PASS
+  (tsc + Vite, PWA emitted, 7 precache entries).
+- Slice 4 — `packages/core/src/state.ts`: `applyEvent` + `rebuildProjection`
+  pure fold over the append-only event log; deterministic order via
+  `eventSortKey (actual_event_time, seq, event_id)` (idempotence, shuffle
+  stability, and never-mutate property tests); drive segments, fatigue
+  counters, trip-now monotonicity, TIME_UPDATED skew, corrections audit.
+- Slices 5–6 — `roadmap.ts` (computeRoadmap + planFrom + simulateDelay
+  what-if + waypoint degrade), `deadline.ts` (all six functions,
+  conservative-only risk), `plan-diff.ts` (before/after reason), fatigue
+  rules (180 continuous / 600 per 24h / 20 break / 180 night, advisory-only,
+  banned-words test). Scenario suite green incl. O (no false-safe),
+  P (UNKNOWN stays unknown), Q (delay audited), L (REST NOW).
+- **Delay-horizon design (amendment to #7):** `DELAY_ADDED` keeps
+  `delay_total_min` (auditable raw sum) and sets
+  `delay_horizon = max(prev_horizon, event_time) + amount`;
+  `computeRoadmap` plans from `max(now, delay_horizon)`. Conservative only,
+  absorbed naturally once the wall clock passes the horizon (no
+  double-count), shuffle-stable. Milestone absorption deliberately NOT
+  implemented — it is a no-op when the milestone ≥ horizon and
+  anti-conservative (false-safe) when below.
+- Web UI (slices 4–6 UI): zustand store appending TripEvents with
+  localStorage persistence (`trip-os-events-v1`); Home / Route / Checklist
+  screens; START TRIP, ARRIVED / VISIT COMPLETE / DEPART, WE ARE DELAYED
+  (+15/30/60/120m), TAKE BREAK / BREAK DONE, routine activities; 30s clock
+  tick; "What changed" card with humanized reasons. 6 live interaction
+  tests incl. engine-consistency (store roadmap === direct computeRoadmap)
+  and the delay-reason test.
+- Slice 7 (offline hardening) is code-complete in the build
+  (SW precache + navigateFallback + static no-fetch checks) but the
+  **real-device airplane-mode gate (§24) has NOT been run** — see the final
+  engineering report. Slice 8 (AI-Lite) intentionally not started.
+- Known defects: NONE open in code. See report for deployment + device
+  steps that remain user-side.

@@ -1,7 +1,7 @@
 # TRIP OS — MVP-A Implementation Plan
 
 **Companion to:** `TRIP_OS_MASTER_ROADMAP.md` (v2) · **Changelog:** `TRIP_OS_CHANGELOG_PHASE_0_1.md`
-**Status: PLAN ONLY — implementation is not authorized until `APPROVED — START MVP-A IMPLEMENTATION`.**
+**Status (2026-09-06): Slices 1–7 code-complete; 96/96 tests green; build green. Slices 4–6 verified baselines in the changelog. Slice 7's real-device airplane-mode gate (§24) is the remaining user-side release step; Slice 8 optional, not started.**
 
 ## How to read this plan
 
