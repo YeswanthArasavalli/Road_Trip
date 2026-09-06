@@ -153,3 +153,25 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
 - Re-verified after the change: tests 96/96 PASS (11 files), `pnpm build`
   PASS (PWA emitted, 7 precache entries).
 
+## Vercel deploy pass (2026-09-06, pre-departure)
+
+- Decision: go-live via **Vercel (GitHub integration, auto-deploy)** instead
+  of the laptop staying on all week. Vercel gives a real HTTPS domain — the
+  PWA installs and the service worker registers on any network, including
+  phone mobile data far from home; the LAN `pnpm phone` path stays as
+  plan B if Vercel is unreachable.
+- `vercel.json` (repo root, zero other settings needed): `buildCommand`
+  runs web `tsc` + `vite build` directly (skips `pnpm -r build`, which runs
+  the package-level `vitest` too — vitest is a devDependency at root, not
+  installed in Vercel's package-filtered install, so the root build script
+  is unusable there); `outputDirectory` `apps/web/dist`; SPA rewrite to
+  `/index.html` that excludes `sw.js`, `workbox-*.js`, and
+  `manifest.webmanifest` so the service worker and manifest serve at their
+  real paths.
+- `packageManager: "pnpm@11.24.0"` pinned in root package.json so Vercel's
+  Corepack uses the exact version the lockfile was resolved with.
+- Push state at this pass: 11 commits to `origin/main` at
+  `github.com/YeswanthArasavalli/Road_Trip` (local main was 10 ahead
+  before the push).
+
+

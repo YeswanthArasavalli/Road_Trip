@@ -2,6 +2,7 @@
   "name": "trip-os",
   "private": true,
   "version": "0.1.0",
+  "packageManager": "pnpm@11.24.0",
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
