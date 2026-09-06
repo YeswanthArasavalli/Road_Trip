@@ -53,7 +53,7 @@ packages/core/                    # pure TS — zero runtime deps except zod
 packages/seed-data/
   schema.ts                       # Zod: RouteNode, TripSeed, TripEvent schemas
   src/trip-2026-09.ts             # the actual trip (11 nodes)
-  src/data-pass-2026-09-05.md     # Sept 5 research outputs (source + confidence per field)
+  src/data-pass-2026-09.md        # research outputs (source + confidence per field)
 ```
 
 ---
@@ -138,7 +138,7 @@ requiredDepartureTime(fromNode, deadline, conservativeRemainingMinutes) -> epoch
 
 **Files:**
 
-- Create: `packages/seed-data/schema.ts` (Zod), `src/trip-2026-09.ts`, `src/data-pass-2026-09-05.md`
+- Create: `packages/seed-data/schema.ts` (Zod), `src/trip-2026-09.ts`, `src/data-pass-2026-09.md`
 
 **Interfaces produced:** `RouteNodeSchema` (`node_type: DESTINATION|HOME`, `role: MANDATORY_DESTINATION|OPTIONAL_DESTINATION|RETURN_WAYPOINT|HOME`, `priority`, `mandatory`), `TripSeedSchema` (11 nodes: 9 MANDATORY_DESTINATION + Vijayawada RETURN_WAYPOINT + Narsapuram HOME; 10 legs with `Estimate`-typed ranges + confidence; daily routine blocks; fatigue config defaults; risk thresholds; hard-deadline constant), and validated `trip2026_09` export.
 
@@ -146,7 +146,7 @@ requiredDepartureTime(fromNode, deadline, conservativeRemainingMinutes) -> epoch
 
 **Tests (Zod validation):** schema rejects: missing HOME node · zero destination nodes · negative durations · estimate missing `status`/`confidence` · a `status: UNKNOWN` field presented as a precise verified value.
 
-**Acceptance criteria:** `trip2026_09` validates clean; 11 nodes with correct roles; 10 legs with ranges; deadline constant `2026-09-13T03:00+05:30` present; every `UNKNOWN` field carries a documented conservative assumption (see `data-pass-2026-09-05.md`).
+**Acceptance criteria:** `trip2026_09` validates clean; 11 nodes with correct roles; 10 legs with ranges; deadline constant `2026-09-13T03:00+05:30` present; every `UNKNOWN` field carries a documented conservative assumption (see `data-pass-2026-09.md`).
 
 **Manual verification:** seed loads in the app dev shell (temporary debug view or checklist screen from Slice 4 — a simple "trip loaded: 11 nodes" indicator is acceptable at this slice).
 

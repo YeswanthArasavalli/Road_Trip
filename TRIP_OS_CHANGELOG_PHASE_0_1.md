@@ -44,7 +44,7 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
 
 ## Slice 3 verified baseline (2026-09-05)
 
-- Seed package: `schema.ts` (Zod), `trip-2026-09.ts`, `schema.test.ts` (23 tests), `data-pass-2026-09-05.md` (source-of-record); `index.ts` re-exports schema + trip + version.
+- Seed package: `schema.ts` (Zod), `trip-2026-09.ts`, `schema.test.ts` (23 tests), `data-pass-2026-09.md` (source-of-record; renamed from the provisional `data-pass-2026-09-05.md` in the 2026-09-06 verification pass); `index.ts` re-exports schema + trip + version.
 - Seed validates at module load (`TripSeedSchema.parse`) — invalid seed fails fast, never silently.
 - Route model per roadmap §2.4: 11 nodes / 10 chained legs, Tirupati → Narsapuram HOME; the Narsapuram → Tirupati outbound drive is trip-origin context documented in the data pass, not a route leg.
 - 9 MANDATORY_DESTINATION nodes; Vijayawada RETURN_WAYPOINT (mandatory=false, degrades to drive-through); Narsapuram single terminal HOME node.
@@ -53,3 +53,31 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
 - Test invocation note: vitest must run from workspace root (`pnpm test -- packages/seed-data`); package-dir runs find no files (root config uses root-relative globs).
 - Workspace tests at close: 56/56 PASS (8 files), seed-data targeted 23+1 green.
 - Known defects: NONE. Slice 4 (TripEvent schemas) not started.
+
+## Slice 3 data verification pass (2026-09-06)
+
+- Bounded, evidence-first verification after the parallel research loop
+  stalled on search-gateway failures. No architecture change; no Slice 4
+  work.
+- Source-of-record renamed: `data-pass-2026-09-05.md` →
+  `data-pass-2026-09.md` (old file removed; plan §Slice 3 references updated).
+- Two geometrically impossible legs corrected from sourced routing evidence
+  (retrieved 2026-09-06): Kanipakam → Tiruttani 45/60/70 → 75/95/115 min
+  (~73–88 km, gozocabs/rome2rio); Rameswaram → Vijayawada 600/660/750 →
+  840/990/1200 min (~996–1,038 km, Wanderlog/Yatra/MakeMyTrip/ClearCarRental).
+  The return leg is now the governing deadline constraint; arrival is NOT
+  guaranteed and an overnight halt is probable (§9 fatigue caps).
+- Rameswaram visit assumption corrected: theertham bathing excluded
+  (darshan-only family mode); range 90/180/300 → 75/150/270; hours verified
+  via official HR&CE site.
+- Temple hours sourced 2026-09-06 for 8 of 9 destinations (5 via official
+  HR&CE pages); Tirumala NOT verified (3 gateway timeouts) — remains
+  UNKNOWN. All darshan queues remain UNKNOWN; nothing promoted to VERIFIED
+  on an average-queue claim.
+- Outbound origin context Narsapuram → Tirupati documented in the data pass:
+  ~493–521 km, ~7–7.5h pure driving (Rome2Rio/MakeMyTrip) — not a route leg.
+- Drive legs remain ESTIMATED (no map API consulted; travel-site quotes do
+  not confer VERIFIED status).
+- Route model unchanged: 11 nodes / 10 legs / single terminal Narsapuram
+  HOME / Vijayawada RETURN_WAYPOINT; deadline, timezone, thresholds,
+  fatigue and offline-first architecture all unchanged.
