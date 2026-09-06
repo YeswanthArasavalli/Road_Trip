@@ -81,3 +81,18 @@ Baseline: `TRIP_OS_MASTER_ROADMAP.md` v1 (Sept 4, 2026). 12 corrections applied.
 - Route model unchanged: 11 nodes / 10 legs / single terminal Narsapuram
   HOME / Vijayawada RETURN_WAYPOINT; deadline, timezone, thresholds,
   fatigue and offline-first architecture all unchanged.
+
+## Route order correction (2026-09-06, user-sourced)
+
+- User corrected the actual visit order: **Srikalahasti FIRST** (en route
+  from Narsapuram on the overnight outbound), **then Tirupati**. Seed
+  updated: route nodes 1↔2 swapped, legs re-chained (Srikalahasti →
+  Tirupati ~36–40 km; new Tirupati → Kanipakam leg ~78 km via
+  Puttalapattu/Chittoor, 105/125/145 min, aggregated distance source).
+- Outbound origin context re-scoped: Narsapuram → Srikalahasti (~455–465
+  km derived from sourced figures), documented in the data pass, not a
+  modeled leg.
+- Vijayawada clarified: family intends to cover Kanaka Durga temple on the
+  return from Rameswaram; remains RETURN_WAYPOINT, degrades to
+  drive-through only under hard deadline pressure (§2.4). No architecture
+  change.

@@ -301,11 +301,12 @@ describe("trip2026_09 seed (Slice 3 acceptance)", () => {
     expect(home?.node_type).toBe("HOME");
   });
 
-  it("route begins at Tirupati and ends at HOME (origin leg is context, not a leg)", () => {
-    expect(trip2026_09.route[0]!.id).toBe("tirupati");
+  it("route begins at Srikalahasti (user-corrected order) and ends at HOME (origin leg is context, not a leg)", () => {
+    expect(trip2026_09.route[0]!.id).toBe("srikalahasti");
+    expect(trip2026_09.route[1]!.id).toBe("tirupati");
     expect(trip2026_09.route[10]!.id).toBe("narsapuram");
-    // The first leg starts at Tirupati — no narsapuram->tirupati leg exists.
-    expect(trip2026_09.legs[0]!.from).toBe("tirupati");
+    // The first leg starts at Srikalahasti — no narsapuram->srikalahasti leg exists.
+    expect(trip2026_09.legs[0]!.from).toBe("srikalahasti");
   });
 
   it("hard deadline is 2026-09-13T03:00:00+05:30 with Asia/Kolkata timezone", () => {

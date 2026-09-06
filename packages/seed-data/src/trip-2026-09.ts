@@ -2,8 +2,12 @@
  * TRIP OS — seed trip for the September 2026 pilgrimage (plan Slice 3).
  * Route model per roadmap §2.4 (Correction #1): 11 nodes, 10 legs,
  * Narsapuram modeled as a single terminal HOME node. The outbound drive
- * Narsapuram → Tirupati precedes route node 1 and is documented in
+ * Narsapuram → Srikalahasti precedes route node 1 and is documented in
  * data-pass-2026-09.md, not modeled as a route leg.
+ *
+ * Route order (user-corrected 2026-09-06): SRIKALAHASTI is visited FIRST
+ * (en route from Narsapuram), then Tirupati. Vijayawada (Kanaka Durga) is
+ * the return-waypoint temple cover on the way home from Rameswaram.
  *
  * Data honesty (§6.1): drive durations are ESTIMATED — two geometrically
  * impossible legs (Kanipakam→Tiruttani, Rameswaram→Vijayawada) were
@@ -25,8 +29,8 @@ const raw: TripSeed = {
   daily_routine_blocks: ["BATH", "WASHROOM", "GET_READY", "FOOD"],
   route: [
     {
-      id: "tirupati",
-      name: "Tirupati (Sri Venkateswara Temple)",
+      id: "srikalahasti",
+      name: "Srikalahasti (Srikalahasteeswara Temple)",
       node_type: "DESTINATION",
       role: "MANDATORY_DESTINATION",
       priority: 1,
@@ -34,14 +38,16 @@ const raw: TripSeed = {
       visit: {
         status: "UNKNOWN",
         confidence: "UNKNOWN",
-        range: { optimistic: 120, expected: 240, conservative: 360 },
+        range: { optimistic: 60, expected: 120, conservative: 180 },
         assumption:
-          "Sarva darshan queue unknown; conservative = up to 6h queue + prasadam/photos. Hours/queue NOT verified 2026-09-06 (search gateway failed 3×) — verify before departure.",
+          "Queue unknown; conservative = 3h. Hours 6:00–21:00 per aggregator source (2026-09-06, not official). Rahu-Ketu pooja NOT in family mode (darshan only, §2.5). FIRST visit — en route from Narsapuram (user-corrected order).",
+        source: "web search: srikalahasthitemple.com, yatra.com",
+        retrieved_at: "2026-09-06",
       },
     },
     {
-      id: "srikalahasti",
-      name: "Srikalahasti (Srikalahasteeswara Temple)",
+      id: "tirupati",
+      name: "Tirupati (Sri Venkateswara Temple)",
       node_type: "DESTINATION",
       role: "MANDATORY_DESTINATION",
       priority: 2,
@@ -49,11 +55,9 @@ const raw: TripSeed = {
       visit: {
         status: "UNKNOWN",
         confidence: "UNKNOWN",
-        range: { optimistic: 60, expected: 120, conservative: 180 },
+        range: { optimistic: 120, expected: 240, conservative: 360 },
         assumption:
-          "Queue unknown; conservative = 3h. Hours 6:00–21:00 per aggregator source (2026-09-06, not official). Rahu-Ketu pooja NOT in family mode (darshan only, §2.5).",
-        source: "web search: srikalahasthitemple.com, yatra.com",
-        retrieved_at: "2026-09-06",
+          "Sarva darshan queue unknown; conservative = up to 6h queue + prasadam/photos. Hours/queue NOT verified 2026-09-06 (search gateway failed 3×) — verify before departure.",
       },
     },
     {
@@ -177,7 +181,7 @@ const raw: TripSeed = {
     },
     {
       id: "vijayawada",
-      name: "Vijayawada",
+      name: "Vijayawada (Kanaka Durga Temple)",
       node_type: "DESTINATION",
       role: "RETURN_WAYPOINT",
       priority: 10,
@@ -186,7 +190,8 @@ const raw: TripSeed = {
         status: "UNKNOWN",
         confidence: "UNKNOWN",
         range: { optimistic: 0, expected: 60, conservative: 120 },
-        assumption: "Short visit optional; degrades to drive-through under pressure (§2.4) — conservative = 2h if visited.",
+        assumption:
+          "Family intends to cover Kanaka Durga temple on the return from Rameswaram (user-corrected 2026-09-06); degrades to drive-through only under hard deadline pressure (§2.4) — conservative = 2h if visited. Hours/queue UNKNOWN.",
       },
     },
     {
@@ -200,25 +205,28 @@ const raw: TripSeed = {
   ],
   legs: [
     {
-      from: "tirupati",
-      to: "srikalahasti",
+      from: "srikalahasti",
+      to: "tirupati",
       mode: "DRIVE",
       duration: {
         status: "ESTIMATED",
         confidence: "MEDIUM",
         range: { optimistic: 45, expected: 60, conservative: 70 },
-        assumption: "~40 km; not map-verified (§6.2: conservative ≈ expected +15%).",
+        assumption: "~36–40 km; not map-verified (§6.2: conservative ≈ expected +15%).",
       },
     },
     {
-      from: "srikalahasti",
+      from: "tirupati",
       to: "kanipakam",
       mode: "DRIVE",
       duration: {
         status: "ESTIMATED",
-        confidence: "LOW",
-        range: { optimistic: 120, expected: 150, conservative: 170 },
-        assumption: "~110 km two-lane; not map-verified.",
+        confidence: "MEDIUM",
+        range: { optimistic: 105, expected: 125, conservative: 145 },
+        assumption:
+          "~78 km via Puttalapattu/Chittoor road (aggregated distance source, 2026-09-06); not map-verified. Replaces the former Srikalahasti→Kanipakam leg after the user-corrected route order change.",
+        source: "web search 2026-09-06: aggregated distance sources (~78 km Tirupati→Kanipakam via Puttalapattu)",
+        retrieved_at: "2026-09-06",
       },
     },
     {

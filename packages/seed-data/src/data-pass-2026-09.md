@@ -41,40 +41,46 @@ abandoned per the bounded-pass rule. Consequences:
 
 ## Origin context — not a route leg (§2.4 Correction #1)
 
-The modeled route remains Tirupati → … → Vijayawada → Narsapuram, with
-Narsapuram the single terminal HOME node. The outbound drive Narsapuram →
-Tirupati precedes route node 1 and is NOT a modeled route leg. Documented
-here per §4 of the verification gate:
+The modeled route remains Srikalahasti → … → Vijayawada → Narsapuram (order
+user-corrected 2026-09-06: Srikalahasti is visited FIRST, en route, then
+Tirupati), with Narsapuram the single terminal HOME node. The outbound drive
+Narsapuram → Srikalahasti precedes route node 1 and is NOT a modeled route
+leg. Documented here per §4 of the verification gate:
 
-- **Narsapuram → Tirupati (outbound origin context)** — ESTIMATED, LOW-MEDIUM
-  confidence. Road distance **~493–521 km**; pure driving **~7h–7.5h**
-  (Rome2Rio: 493 km / 7h24; MakeMyTrip ~500+ km / ~7h; RedBus 521 km bus
-  route / 11h35). With §9 fatigue breaks for a single driver, realistic
-  elapsed time is ~9–10h; plan the departure-day schedule accordingly.
-  Source: web search 2026-09-06 (rome2rio.com, makemytrip.com, redbus.in).
-  retrieved_at: 2026-09-06. Not modeled as a leg; not deadline-relevant
-  before the trip starts.
+- **Narsapuram → Srikalahasti (outbound origin context)** — ESTIMATED, LOW
+  confidence. Derived from two sourced figures: Rome2Rio gives
+  Tirupati ↔ Narasapuram 493 km and Srikalahasti ↔ Tirupati is ~36–40 km
+  (leg 1), so via the Nellore–Nayudupeta–Srikalahasti approach the outbound
+  drive is roughly **~455–465 km**, pure driving **~7h–7.5h**. With §9
+  fatigue breaks for a single driver, realistic elapsed time is ~9–10h;
+  plan the departure-day schedule accordingly. The exact route was not
+  independently verified. Source: derivation from web-search figures
+  (rome2rio.com 2026-09-06 + leg 1). retrieved_at: 2026-09-06. Not modeled
+  as a leg; not deadline-relevant before the trip starts.
 
-## Temple records (nine mandatory destinations)
+## Temple records (nine mandatory destinations, in corrected visit order)
 
-Queues/darshan durations are NOT verifiable before departure: every visit
-status is UNKNOWN, confidence UNKNOWN, no precise value; the conservative
-bound is the planning assumption. Operating hours are recorded separately
-with their own source where verification succeeded. Fields not listed
-(parking, walking requirement, stairs, vehicle access, specific
-restrictions) were not verified this pass → UNKNOWN; the family-mode
-defaults (minimum walking, elderly-friendly, no climbing on foot) are
-planning assumptions pending on-the-ground verification.
+Visit order user-corrected 2026-09-06: SRIKALAHASTI FIRST (en route from
+Narsapuram), then Tirupati. Queues/darshan durations are NOT verifiable
+before departure: every visit status is UNKNOWN, confidence UNKNOWN, no
+precise value; the conservative bound is the planning assumption. Operating
+hours are recorded separately with their own source where verification
+succeeded. Fields not listed (parking, walking requirement, stairs, vehicle
+access, specific restrictions) were not verified this pass → UNKNOWN; the
+family-mode defaults (minimum walking, elderly-friendly, no climbing on
+foot) are planning assumptions pending on-the-ground verification.
 
-1. **Tirupati (Sri Venkateswara, Tirumala)** — visit UNKNOWN (120/240/360).
+1. **Srikalahasti (Srikalahasteeswara)** — visit UNKNOWN (60/120/180).
+   FIRST visit of the trip (user-corrected order 2026-09-06), en route
+   Narsapuram → Tirupati. Hours 6:00–21:00 (ESTIMATED hours;
+   srikalahasthitemple.com, yatra.com — not official). Free darshan
+   available. Rahu-Ketu pooja explicitly excluded (darshan-only mode).
+   retrieved_at 2026-09-06.
+2. **Tirupati (Sri Venkateswara, Tirumala)** — visit UNKNOWN (120/240/360).
    Hours/queue NOT VERIFIED 2026-09-06: three search attempts timed out.
    Assumption unchanged: free Sarva darshan via queue complex; conservative
    6h queue + prasadam/photos; longest queue of the trip. Verify before
    departure. (Confidence: UNKNOWN.)
-2. **Srikalahasti (Srikalahasteeswara)** — visit UNKNOWN (60/120/180).
-   Hours 6:00–21:00 (ESTIMATED hours; srikalahasthitemple.com, yatra.com —
-   not official). Free darshan available. Rahu-Ketu pooja explicitly
-   excluded (darshan-only mode). retrieved_at 2026-09-06.
 3. **Kanipakam (Vinayaka)** — visit UNKNOWN (45/90/150). Open ~4:00–21:30
    with darshan windows incl. 12:00–16:30; free Sarva Darshanam (ESTIMATED
    hours; gotirupati.com; official devasthanam site
@@ -112,9 +118,11 @@ planning assumptions pending on-the-ground verification.
    temple time. Deadline-critical node: latest-safe-departure home is
    computed from here. retrieved_at 2026-09-06.
 
-Non-modeled stop — **Vijayawada (RETURN_WAYPOINT)**: 0/60/120, optional
-short visit; degrades to drive-through under schedule pressure (§2.4). No
-temple verification required for MVP-A.
+Non-modeled stop — **Vijayawada (RETURN_WAYPOINT, Kanaka Durga Temple)**:
+0/60/120. User-corrected 2026-09-06: the family intends to cover the
+Kanaka Durga temple here on the return from Rameswaram; it degrades to
+drive-through ONLY under hard deadline pressure (§2.4). Hours/queue
+UNKNOWN (not verified this pass).
 
 All visit queues: verification updates land as ESTIMATE_VERIFIED events, not
 seed edits mid-trip.
@@ -123,8 +131,8 @@ seed edits mid-trip.
 
 | # | Leg | o/e/c (min) | Status | Source |
 |---|-----|-------------|--------|--------|
-| 1 | Tirupati → Srikalahasti | 45/60/70 | ESTIMATED (MEDIUM) | planner judgment, ~40 km, not map-verified |
-| 2 | Srikalahasti → Kanipakam | 120/150/170 | ESTIMATED (LOW) | planner judgment, ~110 km two-lane, not map-verified |
+| 1 | Srikalahasti → Tirupati | 45/60/70 | ESTIMATED (MEDIUM) | planner judgment, ~36–40 km, not map-verified |
+| 2 | Tirupati → Kanipakam | 105/125/145 | ESTIMATED (MEDIUM) | ~78 km via Puttalapattu/Chittoor (aggregated distance source 2026-09-06); not map-verified |
 | 3 | Kanipakam → Tiruttani | **75/95/115** | ESTIMATED (MEDIUM) | **sourced 2026-09-06: 73–88 km** (see below) |
 | 4 | Tiruttani → Kanchipuram | 45/60/70 | ESTIMATED (MEDIUM) | planner judgment, ~45 km, not map-verified |
 | 5 | Kanchipuram → Tiruvannamalai | 105/120/140 | ESTIMATED (LOW) | planner judgment, ~105 km state highway, not map-verified |
@@ -179,7 +187,7 @@ rest stops (advisory output only, §25 safety language).
 - Tirumala hours/queue: UNVERIFIED (gateway failures) — highest-value
   verification target before departure.
 - Every darshan queue duration: UNKNOWN (all nine temples).
-- Legs 1, 2, 4–8, 10: planner-judgment ESTIMATES, no source yet.
+- Legs 1, 4–8, 10: planner-judgment ESTIMATES, no source yet.
 - Parking, walking distances from parking, stairs, elderly access details,
   vehicle/restriction specifics at all temples: UNKNOWN.
 - Rameswaram → Vijayawada exact best route and its true elapsed time with
