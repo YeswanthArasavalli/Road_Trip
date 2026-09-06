@@ -171,3 +171,128 @@ export type SeedEstimate = z.infer<typeof EstimateSchema>;
 export type SeedRouteNode = z.infer<typeof RouteNodeSchema>;
 export type SeedLeg = z.infer<typeof LegSchema>;
 export type TripSeed = z.infer<typeof TripSeedSchema>;
+
+/**
+ * TripEvent schemas (plan Slice 4). The local event log is authoritative:
+ * append-only, immutable, every event carries provenance
+ * { actual_event_time, recorded_at, source }. History is never silently
+ * rewritten — corrections are new EVENT_CORRECTED events.
+ */
+export const EventSourceSchema = z.enum(["USER", "GPS", "NETWORK", "SYSTEM"]);
+
+const EventProvenance = z.object({
+  /** ISO 8601 instant — when the thing actually happened. */
+  actual_event_time: z.string().refine((s) => !Number.isNaN(Date.parse(s)), {
+    message: "actual_event_time must parse as a real instant",
+  }),
+  /** ISO 8601 instant — when the app recorded it. */
+  recorded_at: z.string().refine((s) => !Number.isNaN(Date.parse(s)), {
+    message: "recorded_at must parse as a real instant",
+  }),
+  source: EventSourceSchema,
+  /** Append-order id — unique, monotonic per device log. */
+  event_id: z.string().min(1),
+  /** Optional device-assigned sequence for stable (time, seq) ordering. */
+  seq: z.number().int().nonnegative().optional(),
+});
+
+const ActivitySchema = z.enum(["BATH", "WASHROOM", "GET_READY", "FOOD"]);
+
+export const TripEventSchema = z.discriminatedUnion("type", [
+  z.object({ type: z.literal("TRIP_STARTED"), seed_id: z.string().min(1) }).merge(EventProvenance),
+  z.object({ type: z.literal("ARRIVED"), node_id: z.string().min(1) }).merge(EventProvenance),
+  z.object({ type: z.literal("DEPARTED"), node_id: z.string().min(1) }).merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("ACTIVITY_COMPLETED"),
+      node_id: z.string().min(1).optional(),
+      activity: ActivitySchema,
+      duration_minutes: z.number().nonnegative().optional(),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("CHECKLIST_TOGGLED"),
+      node_id: z.string().min(1).optional(), // omit = trip-level checklist
+      item_id: z.string().min(1),
+      done: z.boolean(),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("DESTINATION_COMPLETED"),
+      node_id: z.string().min(1),
+      actual_duration_minutes: z.number().nonnegative(),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("DESTINATION_SKIPPED"),
+      node_id: z.string().min(1),
+      reason: z.string().min(1),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("DELAY_ADDED"),
+      amount_minutes: z.number().positive(),
+      reason: z.string().optional(),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("TIME_UPDATED"),
+      network_now: z.string().refine((s) => !Number.isNaN(Date.parse(s)), {
+        message: "network_now must parse as a real instant",
+      }),
+      device_now: z.string().refine((s) => !Number.isNaN(Date.parse(s)), {
+        message: "device_now must parse as a real instant",
+      }),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("LOCATION_UPDATED"),
+      node_id: z.string().min(1).optional(),
+      note: z.string().optional(),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("ESTIMATE_VERIFIED"),
+      ref: z.string().min(1), // node id or "from->to" leg ref
+      field: z.string().min(1),
+      value_minutes: z.number().nonnegative().optional(),
+      value_text: z.string().optional(),
+      estimate_source: z.string().min(1),
+      retrieved_at: z.string().min(1),
+    })
+    .merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("EVENT_CORRECTED"),
+      corrected_event_id: z.string().min(1),
+      reason: z.string().min(1),
+    })
+    .merge(EventProvenance),
+  z.object({ type: z.literal("REST_STARTED"), node_id: z.string().min(1).optional() }).merge(EventProvenance),
+  z.object({ type: z.literal("REST_COMPLETED"), duration_minutes: z.number().nonnegative() }).merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("STOP_ADDED"),
+      node_id: z.string().min(1),
+      label: z.string().min(1),
+    })
+    .merge(EventProvenance),
+  z.object({ type: z.literal("STOP_REMOVED"), node_id: z.string().min(1) }).merge(EventProvenance),
+  z
+    .object({
+      type: z.literal("ROADMAP_RECOMPUTED"),
+      reason: z.string().min(1),
+    })
+    .merge(EventProvenance),
+]);
+
+export type TripEvent = z.infer<typeof TripEventSchema>;
+export type EventSource = z.infer<typeof EventSourceSchema>;
+export type RoutineActivity = z.infer<typeof ActivitySchema>;

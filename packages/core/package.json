@@ -8,6 +8,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@trip-os/seed-data": "workspace:*",
     "zod": "^3.23.8"
   }
 }
